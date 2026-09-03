@@ -1,0 +1,60 @@
+source_id,title,url,category,subcategory
+db8259a6-4beb-434a-af62-27c729ebe3a0,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit,https://codelit.io/blog/data-serialization-formats,Data Serialization,Format Comparisons
+75020b10-38a7-45e3-9b38-fc83f9fe4411,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit,https://codelit.io/blog/data-serialization-formats,Data Serialization,Format Comparisons
+2cdb0e5b-c507-4866-b076-a15a221cac8f,"Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint",https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack,Data Serialization,Text Formats
+99a67a58-36b4-4498-b7b7-8ba61fa3a651,"Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint",https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack,Data Serialization,Text Formats
+4c3d93f8-7f4c-42ec-a11f-477c6724d44f,Error Correction Code - Wikipedia,https://en.wikipedia.org/wiki/Error_correction_code,Error Correcting Codes,ECC Theory
+4b7d8dda-7503-4b25-8075-ecae5be3fd41,Error Correction Code - Wikipedia,https://en.wikipedia.org/wiki/Error_correction_code,Error Correcting Codes,ECC Theory
+e5989b9c-321f-4841-866c-567945bbf428,Hamming Code - Wikipedia,https://en.wikipedia.org/wiki/Hamming_code,Error Correcting Codes,Specific Code Families
+7c8a4254-3de4-4285-a1e4-68b0ab76a25a,Hamming Code - Wikipedia,https://en.wikipedia.org/wiki/Hamming_code,Error Correcting Codes,Specific Code Families
+c9e15306-74de-49ce-a34c-4de0b583d92a,Reed-Solomon Error Correction - Wikipedia,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Error Correcting Codes,Specific Code Families
+a058845f-740c-4156-b6c5-cec709605594,Reed-Solomon Error Correction - Wikipedia,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Error Correcting Codes,Specific Code Families
+7f50a1de-178d-4aea-8e16-48aa2a91268f,GEDCOM - Wikipedia,https://en.wikipedia.org/wiki/GEDCOM,Family & Kinship,Genealogy Data Models
+c3485448-7811-4c9a-9e41-3ab42758e2f6,GEDCOM - Wikipedia,https://en.wikipedia.org/wiki/GEDCOM,Family & Kinship,Genealogy Data Models
+ffd40047-dbc5-4a36-8271-5220fdae4d00,Genealogy - Wikipedia,https://en.wikipedia.org/wiki/Genealogy,Family & Kinship,Genealogy Data Models
+aac3a4a6-627c-46de-9da5-65bb76b912a3,Genealogy - Wikipedia,https://en.wikipedia.org/wiki/Genealogy,Family & Kinship,Genealogy Data Models
+d010e233-3f35-4f6d-9b7d-cf88b14bab12,Kinship - Wikipedia,https://en.wikipedia.org/wiki/Kinship,Family & Kinship,Kinship Networks
+60d10234-d813-4268-b5b4-585f91acaef9,Kinship - Wikipedia,https://en.wikipedia.org/wiki/Kinship,Family & Kinship,Kinship Networks
+1515c391-282d-4bcd-8726-19dc41027f6b,Control-Flow Graph - Wikipedia,https://en.wikipedia.org/wiki/Control-flow_graph,Graph-Native Programming,Code-as-Graph / AST
+aab054cb-ee45-4e1a-9c39-1b0295cc557f,Control-Flow Graph - Wikipedia,https://en.wikipedia.org/wiki/Control-flow_graph,Graph-Native Programming,Code-as-Graph / AST
+b374b4ef-9321-4a3e-ae81-2fc283856145,Graph Rewriting - Wikipedia,https://en.wikipedia.org/wiki/Graph_rewriting,Graph-Native Programming,Graph Rewriting
+962aefc7-4c90-4ea6-bfc4-eb60afce251b,Graph Rewriting - Wikipedia,https://en.wikipedia.org/wiki/Graph_rewriting,Graph-Native Programming,Graph Rewriting
+d4634031-e068-4a2b-b6aa-4f008917b04c,Visual Programming Language - Wikipedia,https://en.wikipedia.org/wiki/Visual_programming_language,Graph-Native Programming,Visual Graph Languages
+646371bc-5253-4da9-a167-bbbe584ab7d2,Visual Programming Language - Wikipedia,https://en.wikipedia.org/wiki/Visual_programming_language,Graph-Native Programming,Visual Graph Languages
+936dcdde-67bb-4e4d-9a50-20169c83d7a3,Practical Methods for Decapping Chips - NetSPI,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Hardware Reverse Engineering,Chip Decapping
+56098425-d5bf-4522-8155-2d96a163f403,Practical Methods for Decapping Chips - NetSPI,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Hardware Reverse Engineering,Chip Decapping
+d65cb868-f99f-42a6-8ebd-2953faf9930a,What is Hardware Reverse Engineering? - GHB Intellect,https://ghbintellect.com/hardware-reverse-engineering/,Hardware Reverse Engineering,PCB Reverse Engineering
+53378a7a-ac75-4630-bf38-f9b1c4dcb0d8,What is Hardware Reverse Engineering? - GHB Intellect,https://ghbintellect.com/hardware-reverse-engineering/,Hardware Reverse Engineering,PCB Reverse Engineering
+7b008e96-0bf4-4a5b-9f65-c3ab016d5c32,Semiconductor Reverse Engineering: The Complete Process - Lumenci,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Hardware Reverse Engineering,Semiconductor Analysis
+b432ade4-de65-4f3c-a721-77430db1fb91,Semiconductor Reverse Engineering: The Complete Process - Lumenci,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Hardware Reverse Engineering,Semiconductor Analysis
+3210e252-4d33-421c-849d-9c4f957c0560,A Mathematical Theory of Communication - Wikipedia,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,Information Theory,History & Impact
+fca408d4-3948-4f54-a687-d562e054fa3f,A Mathematical Theory of Communication - Wikipedia,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,Information Theory,History & Impact
+dcf2ead8-9e16-4e4b-8a8c-e2d3af2575e7,Noisy-Channel Coding Theorem - Wikipedia,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Information Theory,Shannon's Theory
+a91403d7-6295-4078-ab84-19200481846b,Noisy-Channel Coding Theorem - Wikipedia,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Information Theory,Shannon's Theory
+5310e05b-55fd-4be8-988c-b9d79493e536,CPU - Wikipedia,https://en.wikipedia.org/wiki/Central_processing_unit,Machine-Level Computing,CPU Architecture
+38b6f965-1d35-4579-97fb-2f0301308df9,CPU - Wikipedia,https://en.wikipedia.org/wiki/Central_processing_unit,Machine-Level Computing,CPU Architecture
+af9f8da1-0cc6-4ebf-80ab-f392e0d3eafc,Assembly Language - Wikipedia,https://en.wikipedia.org/wiki/Assembly_language,Machine-Level Computing,Low-Level Programming
+1e2b09bc-628d-4633-b5a8-293b5d2f72ce,Assembly Language - Wikipedia,https://en.wikipedia.org/wiki/Assembly_language,Machine-Level Computing,Low-Level Programming
+9049b644-24cf-402a-8fd3-1196321b9122,Neo4j Documentation,https://neo4j.com/docs/,Neo4j,Architecture & Storage
+f12239dd-a227-4a8d-b7ff-1b0bd4717231,Neo4j Documentation,https://neo4j.com/docs/,Neo4j,Architecture & Storage
+3cd638c4-d526-494d-a3eb-638c20ec31d4,Neo4j - Wikipedia,https://en.wikipedia.org/wiki/Neo4j,Neo4j,Architecture & Storage
+91d8400e-5b41-4cf8-91b1-e2d60a133e46,Neo4j - Wikipedia,https://en.wikipedia.org/wiki/Neo4j,Neo4j,Architecture & Storage
+474d6efd-4073-4547-9a5d-ac4512069d36,Neo4j Graph Database - Official Product Page,https://neo4j.com/product/neo4j-graph-database/,Neo4j,Products & Business
+97fed3d8-c0c9-4d3d-be05-08a91e8998a3,Neo4j Graph Database - Official Product Page,https://neo4j.com/product/neo4j-graph-database/,Neo4j,Products & Business
+c4e09c49-8a40-46b8-9940-733c45bb406d,GPU Driver Developer's Guide - Linux Kernel Documentation,https://www.kernel.org/doc/html/latest/gpu/index.html,Open-Source Drivers,Linux Kernel Drivers
+14a31269-fbfb-4b91-9c1a-e45aeb2cdfc9,GPU Driver Developer's Guide - Linux Kernel Documentation,https://www.kernel.org/doc/html/latest/gpu/index.html,Open-Source Drivers,Linux Kernel Drivers
+540dc03f-8ec1-491f-8c20-0196fdec7c13,Free and Open-Source Graphics Device Driver - Wikipedia,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Open-Source Drivers,Open-Source GPU Drivers
+e38d02ff-b897-4c5b-b84b-453284881d62,Free and Open-Source Graphics Device Driver - Wikipedia,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Open-Source Drivers,Open-Source GPU Drivers
+5a68e44f-2a85-4f42-a557-30cba8bcd6a8,Past Programming Languages and Their Influences - ETHW,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Programming Paradigms,Paradigm History
+5bea0d05-655e-4030-af02-aa4bbef0c03e,Past Programming Languages and Their Influences - ETHW,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Programming Paradigms,Paradigm History
+236e52d0-9a5c-4fba-963e-698de7fad68e,Programming Paradigm - Wikipedia,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigms,Paradigm Types
+e4fc569f-e109-42d8-a148-2e73b2186cce,Programming Paradigm - Wikipedia,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigms,Paradigm Types
+38517a6b-dccc-42f3-8d36-0f186a155999,Reverse Engineering - Wikipedia,https://en.wikipedia.org/wiki/Reverse_engineering,Software Engineering at Machine Level,Assembly & Debugging
+26c929c6-7c25-42bf-96e8-c16518d91971,Reverse Engineering - Wikipedia,https://en.wikipedia.org/wiki/Reverse_engineering,Software Engineering at Machine Level,Assembly & Debugging
+242bf61c-8ac8-45e9-9255-662dd9b93505,Memory Management - Wikipedia,https://en.wikipedia.org/wiki/Memory_management,Software Engineering at Machine Level,Systems Programming
+97e603ad-4fa1-455c-a6d4-1b1a33226685,Memory Management - Wikipedia,https://en.wikipedia.org/wiki/Memory_management,Software Engineering at Machine Level,Systems Programming
+a3ce7899-afb9-47d4-b15d-649d8cc6ab39,WebAssembly Portability Documentation,https://webassembly.org/docs/portability/,WebAssembly,Core Spec & ISA
+0550a2be-c003-4595-bf06-f8b58233c6e2,WebAssembly Portability Documentation,https://webassembly.org/docs/portability/,WebAssembly,Core Spec & ISA
+18d96e3b-f227-4d0a-97e5-a874dbe3876f,"WebAssembly Core Specification Introduction (3.0, 2026)",https://webassembly.github.io/spec/core/intro/introduction.html,WebAssembly,Use Cases & Embedding
+88a44e66-336a-4663-8c76-5b96a83f62c1,"WebAssembly Core Specification Introduction (3.0, 2026)",https://webassembly.github.io/spec/core/intro/introduction.html,WebAssembly,Use Cases & Embedding
+8e612ae2-3388-4a82-bf09-2ebc91bd9bfd,Neo4j - Wikipedia,https://en.wikipedia.org/wiki/Neo4j,,

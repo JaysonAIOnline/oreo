@@ -1,0 +1,11 @@
+
+define function handle_request(req: Request) -> Response
+  if req.path == "/" then
+    return Response(200, "text/html", "<h1>Hello OREO!</h1>")
+  else
+    return Response(404, "text/plain", "Not Found")
+
+define function main
+  var server = call create_server(8080, handle_request)
+  call server.start()
+  call print "Server running on http://localhost:8080"

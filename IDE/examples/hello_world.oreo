@@ -1,0 +1,3 @@
+
+define function main
+  call print "Hello, World!"

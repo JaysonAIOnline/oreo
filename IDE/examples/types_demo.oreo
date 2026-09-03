@@ -1,0 +1,24 @@
+
+define record Person
+  name: String
+  age: Int
+  email: String
+
+define sum Result
+  Ok(value: Int)
+  Err(error: String)
+
+define function divide(a: Int, b: Int) -> Result
+  if b == 0 then
+    return Err("Division by zero")
+  else
+    return Ok(a / b)
+
+define function main
+  var person = Person("Alice", 30, "alice@example.com")
+  call print person.name
+  
+  var result = divide(10, 2)
+  match result
+    Ok(value) -> call print "Result: " + value
+    Err(error) -> call print "Error: " + error

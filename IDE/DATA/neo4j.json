@@ -1,0 +1,235 @@
+{
+  "category": "Neo4j",
+  "facts": [
+    {
+      "key_term": "data_model",
+      "fact_type": "tech",
+      "value": "Property graph \u2014 nodes, relationships, properties",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "data_model",
+      "fact_type": "tech",
+      "value": "Property graph \u2014 nodes, relationships, properties",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "implementation",
+      "fact_type": "tech",
+      "value": "Java, runs on JVM",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "implementation",
+      "fact_type": "tech",
+      "value": "Java, runs on JVM",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "index_free_adjacency",
+      "fact_type": "tech",
+      "value": "Nodes point directly to adjacent nodes \u2014 O(1) per hop traversal",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "index_free_adjacency",
+      "fact_type": "tech",
+      "value": "Nodes point directly to adjacent nodes \u2014 O(1) per hop traversal",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "license",
+      "fact_type": "product",
+      "value": "GPLv3 (community), commercial (enterprise)",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/product/neo4j-graph-database/",
+      "source_title": "Neo4j Graph Database - Official Product Page"
+    },
+    {
+      "key_term": "license",
+      "fact_type": "product",
+      "value": "GPLv3 (community), commercial (enterprise)",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/product/neo4j-graph-database/",
+      "source_title": "Neo4j Graph Database - Official Product Page"
+    },
+    {
+      "key_term": "name",
+      "fact_type": "product",
+      "value": "Neo4j",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "name",
+      "fact_type": "product",
+      "value": "Neo4j",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "page_cache",
+      "fact_type": "tech",
+      "value": "Memory-mapped file access with page cache management",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "page_cache",
+      "fact_type": "tech",
+      "value": "Memory-mapped file access with page cache management",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "query_language",
+      "fact_type": "tech",
+      "value": "Cypher (declarative, SQL-like for graphs)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "query_language",
+      "fact_type": "tech",
+      "value": "Cypher (declarative, SQL-like for graphs)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "storage",
+      "fact_type": "tech",
+      "value": "Native graph storage with index-free adjacency",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "storage",
+      "fact_type": "tech",
+      "value": "Native graph storage with index-free adjacency",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "storage_engine",
+      "fact_type": "tech",
+      "value": "Custom binary format, fixed-size records, direct pointers for adjacency",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "storage_engine",
+      "fact_type": "tech",
+      "value": "Custom binary format, fixed-size records, direct pointers for adjacency",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "transaction_lock",
+      "fact_type": "tech",
+      "value": "Lock-based concurrency control with deadlocks detection",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "transaction_lock",
+      "fact_type": "tech",
+      "value": "Lock-based concurrency control with deadlocks detection",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "transactions",
+      "fact_type": "tech",
+      "value": "ACID compliant",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "transactions",
+      "fact_type": "tech",
+      "value": "ACID compliant",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "type",
+      "fact_type": "product",
+      "value": "Native graph database management system",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "type",
+      "fact_type": "product",
+      "value": "Native graph database management system",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Neo4j",
+      "source_title": "Neo4j - Wikipedia"
+    },
+    {
+      "key_term": "type",
+      "fact_type": "product",
+      "value": "Enterprise graph database with community edition",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/product/neo4j-graph-database/",
+      "source_title": "Neo4j Graph Database - Official Product Page"
+    },
+    {
+      "key_term": "type",
+      "fact_type": "product",
+      "value": "Enterprise graph database with community edition",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/product/neo4j-graph-database/",
+      "source_title": "Neo4j Graph Database - Official Product Page"
+    },
+    {
+      "key_term": "wal",
+      "fact_type": "tech",
+      "value": "Write-ahead log for transaction durability",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    },
+    {
+      "key_term": "wal",
+      "fact_type": "tech",
+      "value": "Write-ahead log for transaction durability",
+      "confidence": 1.0,
+      "source_url": "https://neo4j.com/docs/",
+      "source_title": "Neo4j Documentation"
+    }
+  ],
+  "subcategories": {
+    "Architecture & Storage": 24,
+    "Cypher & Query Languages": 0,
+    "Graph Data Science": 0,
+    "Products & Business": 4
+  }
+}

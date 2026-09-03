@@ -1,0 +1,180 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": "auth_securejwt",
+        "label": "Auth",
+        "method": "jwt",
+        "level": "secure",
+        "requires_https": true,
+        "name": "SecureJWT",
+        "created_at": "2026-08-31T07:03:40.439196+00:00",
+        "purpose": ""
+      },
+      {
+        "id": "db_maindb",
+        "label": "Database",
+        "engine": "neo4j",
+        "name": "MainDB",
+        "created_at": "2026-08-31T07:03:40.437683+00:00"
+      },
+      {
+        "id": "inc_footer",
+        "label": "Include",
+        "name": "Footer",
+        "created_at": "2026-08-31T07:03:40.437747+00:00"
+      },
+      {
+        "id": "inc_header",
+        "label": "Include",
+        "name": "Header",
+        "created_at": "2026-08-31T07:03:40.437739+00:00"
+      },
+      {
+        "id": "page_dashboard",
+        "label": "Page",
+        "path": "/dashboard",
+        "name": "Dashboard",
+        "created_at": "2026-08-31T07:03:40.437722+00:00"
+      },
+      {
+        "id": "page_landing",
+        "label": "Page",
+        "path": "/",
+        "name": "Landing",
+        "created_at": "2026-08-31T07:03:40.437711+00:00"
+      },
+      {
+        "id": "page_settings",
+        "label": "Page",
+        "path": "/settings",
+        "name": "Settings",
+        "created_at": "2026-08-31T07:03:40.437730+00:00"
+      }
+    ],
+    "relationships": [
+      {
+        "from": "page_landing",
+        "from_name": "Landing",
+        "type": "CONNECTS_TO",
+        "to": "db_maindb",
+        "to_name": "MainDB",
+        "props": {
+          "secure": true,
+          "auth_method": "jwt",
+          "purpose": "Connect the db to the landing page with a secure auth.",
+          "created_at": "2026-08-31T07:03:40.439178+00:00"
+        }
+      },
+      {
+        "from": "page_landing",
+        "from_name": "Landing",
+        "type": "AUTHENTICATES_WITH",
+        "to": "auth_securejwt",
+        "to_name": "SecureJWT",
+        "props": {
+          "required": true,
+          "roles": [],
+          "created_at": "2026-08-31T07:03:40.439206+00:00"
+        }
+      },
+      {
+        "from": "page_landing",
+        "from_name": "Landing",
+        "type": "INCLUDES",
+        "to": "inc_header",
+        "to_name": "Header",
+        "props": {
+          "order": 0,
+          "created_at": "2026-08-31T07:03:40.440006+00:00"
+        }
+      },
+      {
+        "from": "page_landing",
+        "from_name": "Landing",
+        "type": "INCLUDES",
+        "to": "inc_footer",
+        "to_name": "Footer",
+        "props": {
+          "order": 1,
+          "created_at": "2026-08-31T07:03:40.440024+00:00"
+        }
+      },
+      {
+        "from": "page_dashboard",
+        "from_name": "Dashboard",
+        "type": "INCLUDES",
+        "to": "inc_header",
+        "to_name": "Header",
+        "props": {
+          "order": 0,
+          "created_at": "2026-08-31T07:03:40.440038+00:00"
+        }
+      },
+      {
+        "from": "page_dashboard",
+        "from_name": "Dashboard",
+        "type": "INCLUDES",
+        "to": "inc_footer",
+        "to_name": "Footer",
+        "props": {
+          "order": 1,
+          "created_at": "2026-08-31T07:03:40.440049+00:00"
+        }
+      },
+      {
+        "from": "page_settings",
+        "from_name": "Settings",
+        "type": "INCLUDES",
+        "to": "inc_header",
+        "to_name": "Header",
+        "props": {
+          "order": 0,
+          "created_at": "2026-08-31T07:03:40.440059+00:00"
+        }
+      },
+      {
+        "from": "page_settings",
+        "from_name": "Settings",
+        "type": "INCLUDES",
+        "to": "inc_footer",
+        "to_name": "Footer",
+        "props": {
+          "order": 1,
+          "created_at": "2026-08-31T07:03:40.440071+00:00"
+        }
+      },
+      {
+        "from": "page_settings",
+        "from_name": "Settings",
+        "type": "CONNECTS_TO",
+        "to": "db_maindb",
+        "to_name": "MainDB",
+        "props": {
+          "secure": true,
+          "auth_method": "jwt",
+          "purpose": null,
+          "created_at": "2026-08-31T07:03:40.441002+00:00"
+        }
+      },
+      {
+        "from": "page_settings",
+        "from_name": "Settings",
+        "type": "AUTHENTICATES_WITH",
+        "to": "auth_securejwt",
+        "to_name": "SecureJWT",
+        "props": {
+          "required": true,
+          "roles": [],
+          "created_at": "2026-08-31T07:03:40.441019+00:00"
+        }
+      }
+    ]
+  },
+  "stores": {
+    "db_maindb": {
+      "welcome": "hello from Landing",
+      "theme": "dark"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "category": "Machine-Level Computing",
+  "facts": [
+    {
+      "key_term": "abstraction_level",
+      "fact_type": "tech",
+      "value": "Direct hardware access \u2014 registers, memory, stack, CPU flags \u2014 no runtime abstractions",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "abstraction_level",
+      "fact_type": "tech",
+      "value": "Direct hardware access \u2014 registers, memory, stack, CPU flags \u2014 no runtime abstractions",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "characteristic",
+      "fact_type": "tech",
+      "value": "Architecture-specific \u2014 x86, ARM, RISC-V, MIPS each have different assembly",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "characteristic",
+      "fact_type": "tech",
+      "value": "Architecture-specific \u2014 x86, ARM, RISC-V, MIPS each have different assembly",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "components",
+      "fact_type": "tech",
+      "value": "ALU (arithmetic/logic), control unit, registers, program counter, cache",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "components",
+      "fact_type": "tech",
+      "value": "ALU (arithmetic/logic), control unit, registers, program counter, cache",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "cycle",
+      "fact_type": "tech",
+      "value": "Fetch-decode-execute-writeback: the fundamental CPU instruction cycle",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "cycle",
+      "fact_type": "tech",
+      "value": "Fetch-decode-execute-writeback: the fundamental CPU instruction cycle",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "definition",
+      "fact_type": "tech",
+      "value": "Low-level language with 1:1 correspondence between mnemonics and machine instructions",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "definition",
+      "fact_type": "tech",
+      "value": "Low-level language with 1:1 correspondence between mnemonics and machine instructions",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "instruction_set",
+      "fact_type": "tech",
+      "value": "The ISA defines opcodes, operand types, addressing modes, and register layout",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "instruction_set",
+      "fact_type": "tech",
+      "value": "The ISA defines opcodes, operand types, addressing modes, and register layout",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "modern_features",
+      "fact_type": "tech",
+      "value": "Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "modern_features",
+      "fact_type": "tech",
+      "value": "Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "source_title": "CPU - Wikipedia"
+    },
+    {
+      "key_term": "use_cases",
+      "fact_type": "tech",
+      "value": "Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    },
+    {
+      "key_term": "use_cases",
+      "fact_type": "tech",
+      "value": "Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
+      "source_title": "Assembly Language - Wikipedia"
+    }
+  ],
+  "subcategories": {
+    "CPU Architecture": 8,
+    "Low-Level Programming": 8
+  }
+}

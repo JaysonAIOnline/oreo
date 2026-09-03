@@ -1,0 +1,12 @@
+
+define function read_config() -> String [IO]
+  var content = call read_file("config.json")
+  return content
+
+define function update_state(key: String, value: Int) -> Unit [State]
+  call state_set(key, value)
+
+define function main [IO, State]
+  var config = call read_config()
+  call update_state("last_config", config.length)
+  call print "Config loaded"

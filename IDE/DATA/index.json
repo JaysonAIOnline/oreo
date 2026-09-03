@@ -1,0 +1,108 @@
+{
+  "total_facts": 278,
+  "total_categories": 12,
+  "categories": {
+    "Data Serialization": {
+      "fact_count": 20,
+      "subcategories": {
+        "Binary Formats": 0,
+        "Format Comparisons": 12,
+        "Text Formats": 8
+      },
+      "file": "DATA/data_serialization.json"
+    },
+    "Error Correcting Codes": {
+      "fact_count": 30,
+      "subcategories": {
+        "ECC Theory": 10,
+        "Specific Code Families": 20
+      },
+      "file": "DATA/error_correcting_codes.json"
+    },
+    "Family & Kinship": {
+      "fact_count": 22,
+      "subcategories": {
+        "Genealogy Data Models": 16,
+        "Kinship Networks": 6
+      },
+      "file": "DATA/family_and_kinship.json"
+    },
+    "Graph-Native Programming": {
+      "fact_count": 26,
+      "subcategories": {
+        "Code-as-Graph / AST": 6,
+        "Graph Rewriting": 10,
+        "Visual Graph Languages": 10
+      },
+      "file": "DATA/graph-native_programming.json"
+    },
+    "Hardware Reverse Engineering": {
+      "fact_count": 28,
+      "subcategories": {
+        "Chip Decapping": 10,
+        "PCB Reverse Engineering": 8,
+        "Semiconductor Analysis": 10
+      },
+      "file": "DATA/hardware_reverse_engineering.json"
+    },
+    "Information Theory": {
+      "fact_count": 22,
+      "subcategories": {
+        "History & Impact": 10,
+        "Shannon's Theory": 12
+      },
+      "file": "DATA/information_theory.json"
+    },
+    "Machine-Level Computing": {
+      "fact_count": 16,
+      "subcategories": {
+        "CPU Architecture": 8,
+        "Low-Level Programming": 8
+      },
+      "file": "DATA/machine-level_computing.json"
+    },
+    "Neo4j": {
+      "fact_count": 28,
+      "subcategories": {
+        "Architecture & Storage": 24,
+        "Cypher & Query Languages": 0,
+        "Graph Data Science": 0,
+        "Products & Business": 4
+      },
+      "file": "DATA/neo4j.json"
+    },
+    "Open-Source Drivers": {
+      "fact_count": 20,
+      "subcategories": {
+        "Linux Kernel Drivers": 8,
+        "Open-Source GPU Drivers": 12,
+        "Proprietary vs Open Drivers": 0
+      },
+      "file": "DATA/open-source_drivers.json"
+    },
+    "Programming Paradigms": {
+      "fact_count": 26,
+      "subcategories": {
+        "Paradigm History": 10,
+        "Paradigm Types": 16
+      },
+      "file": "DATA/programming_paradigms.json"
+    },
+    "Software Engineering at Machine Level": {
+      "fact_count": 18,
+      "subcategories": {
+        "Assembly & Debugging": 8,
+        "Systems Programming": 10
+      },
+      "file": "DATA/software_engineering_at_machine_level.json"
+    },
+    "WebAssembly": {
+      "fact_count": 22,
+      "subcategories": {
+        "Core Spec & ISA": 8,
+        "Use Cases & Embedding": 14
+      },
+      "file": "DATA/webassembly.json"
+    }
+  }
+}

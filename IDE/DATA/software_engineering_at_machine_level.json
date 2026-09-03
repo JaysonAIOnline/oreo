@@ -1,0 +1,153 @@
+{
+  "category": "Software Engineering at Machine Level",
+  "facts": [
+    {
+      "key_term": "calling_conventions",
+      "fact_type": "tech",
+      "value": "Understanding how arguments and return values pass between functions is foundational",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "calling_conventions",
+      "fact_type": "tech",
+      "value": "Understanding how arguments and return values pass between functions is foundational",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "challenges",
+      "fact_type": "tech",
+      "value": "No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "challenges",
+      "fact_type": "tech",
+      "value": "No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "common_bugs",
+      "fact_type": "tech",
+      "value": "Memory leaks, dangling pointers, buffer overflows, use-after-free \u2014 all rooted in manual memory management",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "common_bugs",
+      "fact_type": "tech",
+      "value": "Memory leaks, dangling pointers, buffer overflows, use-after-free \u2014 all rooted in manual memory management",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "gc_vs_manual",
+      "fact_type": "tech",
+      "value": "Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "gc_vs_manual",
+      "fact_type": "tech",
+      "value": "Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "memory_mapped_io",
+      "fact_type": "tech",
+      "value": "Hardware registers mapped into address space \u2014 programs interact with devices via memory reads/writes",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "memory_mapped_io",
+      "fact_type": "tech",
+      "value": "Hardware registers mapped into address space \u2014 programs interact with devices via memory reads/writes",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "stack_vs_heap",
+      "fact_type": "tech",
+      "value": "Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "stack_vs_heap",
+      "fact_type": "tech",
+      "value": "Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "techniques",
+      "fact_type": "tech",
+      "value": "Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "techniques",
+      "fact_type": "tech",
+      "value": "Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "tools",
+      "fact_type": "tech",
+      "value": "Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "tools",
+      "fact_type": "tech",
+      "value": "Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
+      "source_title": "Reverse Engineering - Wikipedia"
+    },
+    {
+      "key_term": "virtual_memory",
+      "fact_type": "tech",
+      "value": "MMU translates virtual to physical addresses via page tables; each process gets its own address space",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    },
+    {
+      "key_term": "virtual_memory",
+      "fact_type": "tech",
+      "value": "MMU translates virtual to physical addresses via page tables; each process gets its own address space",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
+      "source_title": "Memory Management - Wikipedia"
+    }
+  ],
+  "subcategories": {
+    "Assembly & Debugging": 8,
+    "Systems Programming": 10
+  }
+}

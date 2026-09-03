@@ -1,0 +1,3 @@
+ERROR:  column f.section_id does not exist
+LINE 19:   LEFT JOIN research_facts f ON sec.id = f.section_id
+                                                  ^

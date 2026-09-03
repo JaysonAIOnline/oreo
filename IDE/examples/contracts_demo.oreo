@@ -1,0 +1,13 @@
+
+define function sqrt(x: Int) -> Int
+  requires x >= 0
+  ensures result * result <= x and (result + 1) * (result + 1) > x
+  
+  var guess = x / 2
+  while guess * guess > x
+    guess = (guess + x / guess) / 2
+  return guess
+
+define function main
+  var result = call sqrt(16)
+  call print result  // Should print 4

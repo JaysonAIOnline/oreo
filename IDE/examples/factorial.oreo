@@ -1,0 +1,10 @@
+
+define function factorial(n: Int) -> Int
+  if n <= 1 then
+    return 1
+  else
+    return n * factorial(n - 1)
+
+define function main
+  var result = factorial(5)
+  call print result

@@ -1,0 +1,60 @@
+[package]
+name = "oreo"
+version = "0.1.0"
+edition = "2021"
+description = "OREO - Visual-first, natural-language-first programming language"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/jayson/oreo"
+
+[dependencies]
+# Graph IR
+petgraph = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Type system
+typed-arena = "2.0"
+indexmap = "2.0"
+
+# Parsing
+nom = "7.1"
+pest = { version = "2.7", features = ["serde"] }
+pest_derive = "2.7"
+
+# Natural language
+tokenizers = "0.15"
+candle-core = { version = "0.6", optional = true }
+candle-nn = { version = "0.6", optional = true }
+
+# Visual editor
+egui = "0.29"
+eframe = "0.29"
+egui_nodes = "0.3"
+
+# AI integration
+z3 = "0.12"
+rand = "0.8"
+
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Configuration
+config = "0.14"
+toml = "0.8"
+
+[features]
+default = []
+ai = ["candle-core", "candle-nn"]
+gui = ["egui", "eframe", "egui_nodes"]
+compiler = ["llvm-sys-170"]  # adjust version as needed
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3

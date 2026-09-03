@@ -1,0 +1,170 @@
+{
+  "category": "Open-Source Drivers",
+  "facts": [
+    {
+      "key_term": "amd_documentation",
+      "fact_type": "tech",
+      "value": "AMD releases GPU documentation without NDA \u2014 allows fully open-source drivers without reverse engineering",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "amd_documentation",
+      "fact_type": "tech",
+      "value": "AMD releases GPU documentation without NDA \u2014 allows fully open-source drivers without reverse engineering",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "atomic_modesetting",
+      "fact_type": "tech",
+      "value": "Atomic modesetting API allows multiple display state changes in a single transaction \u2014 required for modern display management",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "atomic_modesetting",
+      "fact_type": "tech",
+      "value": "Atomic modesetting API allows multiple display state changes in a single transaction \u2014 required for modern display management",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "binary_blob_problem",
+      "fact_type": "tech",
+      "value": "Proprietary drivers taint kernel, break with kernel updates, can't use GPL-only APIs, hard to debug \u2014 Linus Torvalds refuses to consider binary modules",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "binary_blob_problem",
+      "fact_type": "tech",
+      "value": "Proprietary drivers taint kernel, break with kernel updates, can't use GPL-only APIs, hard to debug \u2014 Linus Torvalds refuses to consider binary modules",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "dma_buf",
+      "fact_type": "tech",
+      "value": "DMA-BUF framework allows buffer sharing between kernel drivers and userspace \u2014 essential for zero-copy pipeline",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "dma_buf",
+      "fact_type": "tech",
+      "value": "DMA-BUF framework allows buffer sharing between kernel drivers and userspace \u2014 essential for zero-copy pipeline",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "drm_subsystem",
+      "fact_type": "tech",
+      "value": "Kernel DRM provides buffer management, synchronization, device access control, and userspace ioctl API",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "drm_subsystem",
+      "fact_type": "tech",
+      "value": "Kernel DRM provides buffer management, synchronization, device access control, and userspace ioctl API",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "mesa_drivers",
+      "fact_type": "tech",
+      "value": "radeonsi (AMD GCN+), iris (Intel), nouveau (NVIDIA), freedreno (Qualcomm Adreno), panfrost (Mali)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "mesa_drivers",
+      "fact_type": "tech",
+      "value": "radeonsi (AMD GCN+), iris (Intel), nouveau (NVIDIA), freedreno (Qualcomm Adreno), panfrost (Mali)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "nvidia_open_kernel",
+      "fact_type": "tech",
+      "value": "May 2022: NVIDIA open-sourced Linux kernel modules (GPL/MIT) but kept user-space closed \u2014 a partial opening",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "nvidia_open_kernel",
+      "fact_type": "tech",
+      "value": "May 2022: NVIDIA open-sourced Linux kernel modules (GPL/MIT) but kept user-space closed \u2014 a partial opening",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "stack_layers",
+      "fact_type": "tech",
+      "value": "Kernel DRM driver (hardware, memory, security) -> Mesa (OpenGL/Vulkan userspace) -> Application",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "stack_layers",
+      "fact_type": "tech",
+      "value": "Kernel DRM driver (hardware, memory, security) -> Mesa (OpenGL/Vulkan userspace) -> Application",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "ttm_vs_gem",
+      "fact_type": "tech",
+      "value": "TTM (Translation Table Manager) \u2014 older buffer/_memory manager; GEM (Graphics Execution Manager) \u2014 newer, simpler, used by Intel and AMD",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "ttm_vs_gem",
+      "fact_type": "tech",
+      "value": "TTM (Translation Table Manager) \u2014 older buffer/_memory manager; GEM (Graphics Execution Manager) \u2014 newer, simpler, used by Intel and AMD",
+      "confidence": 1.0,
+      "source_url": "https://www.kernel.org/doc/html/latest/gpu/index.html",
+      "source_title": "GPU Driver Developer's Guide - Linux Kernel Documentation"
+    },
+    {
+      "key_term": "wayland_requirement",
+      "fact_type": "tech",
+      "value": "Atomic modesetting + DMA-BUF required for Wayland \u2014 open drivers had these early, proprietary drivers lagged",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    },
+    {
+      "key_term": "wayland_requirement",
+      "fact_type": "tech",
+      "value": "Atomic modesetting + DMA-BUF required for Wayland \u2014 open drivers had these early, proprietary drivers lagged",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver",
+      "source_title": "Free and Open-Source Graphics Device Driver - Wikipedia"
+    }
+  ],
+  "subcategories": {
+    "Linux Kernel Drivers": 8,
+    "Open-Source GPU Drivers": 12,
+    "Proprietary vs Open Drivers": 0
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "category": "Programming Paradigms",
+  "facts": [
+    {
+      "key_term": "concurrent",
+      "fact_type": "tech",
+      "value": "Multiple threads \u2014 actor model, CSP, dataflow, synchronous, process-oriented; sub-paradigm: reactive (data streams + change propagation)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "concurrent",
+      "fact_type": "tech",
+      "value": "Multiple threads \u2014 actor model, CSP, dataflow, synchronous, process-oriented; sub-paradigm: reactive (data streams + change propagation)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "declarative",
+      "fact_type": "tech",
+      "value": "Describe what, not how \u2014 SQL, HTML, functional, logic; sub-paradigms: functional, logic, query",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "declarative",
+      "fact_type": "tech",
+      "value": "Describe what, not how \u2014 SQL, HTML, functional, logic; sub-paradigms: functional, logic, query",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "functional",
+      "fact_type": "tech",
+      "value": "Mathematical function evaluation, immutability, no side effects \u2014 Haskell, Lisp, ML; pure vs impure (allows side effects)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "functional",
+      "fact_type": "tech",
+      "value": "Mathematical function evaluation, immutability, no side effects \u2014 Haskell, Lisp, ML; pure vs impure (allows side effects)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "functional_contribution",
+      "fact_type": "tech",
+      "value": "Lisp: lambda calculus, first-class functions, garbage collection, homoiconicity (code as data); ML: static typing + inference; Haskell: purity, laziness, monads",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "functional_contribution",
+      "fact_type": "tech",
+      "value": "Lisp: lambda calculus, first-class functions, garbage collection, homoiconicity (code as data); ML: static typing + inference; Haskell: purity, laziness, monads",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "history",
+      "fact_type": "tech",
+      "value": "Paradigm concept from Floyd's 1978 Turing Award lecture; structured programming from mid-1960s as reaction to spaghetti code/goto",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "history",
+      "fact_type": "tech",
+      "value": "Paradigm concept from Floyd's 1978 Turing Award lecture; structured programming from mid-1960s as reaction to spaghetti code/goto",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "imperative",
+      "fact_type": "tech",
+      "value": "Explicit step-by-step state changes \u2014 C, Pascal, FORTRAN, BASIC; sub-paradigms: procedural, structured, modular",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "imperative",
+      "fact_type": "tech",
+      "value": "Explicit step-by-step state changes \u2014 C, Pascal, FORTRAN, BASIC; sub-paradigms: procedural, structured, modular",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "logic",
+      "fact_type": "tech",
+      "value": "Facts + rules + automated reasoning \u2014 Prolog, Datalog; computation as inference over knowledge base",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "logic",
+      "fact_type": "tech",
+      "value": "Facts + rules + automated reasoning \u2014 Prolog, Datalog; computation as inference over knowledge base",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "multi_paradigm",
+      "fact_type": "tech",
+      "value": "Most modern languages support multiple paradigms \u2014 C++, Python, JavaScript, Scala, Rust, Swift",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "multi_paradigm",
+      "fact_type": "tech",
+      "value": "Most modern languages support multiple paradigms \u2014 C++, Python, JavaScript, Scala, Rust, Swift",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "oop",
+      "fact_type": "tech",
+      "value": "Objects with state + behavior, encapsulation, inheritance, polymorphism \u2014 Simula, Smalltalk, Java, C++; class-based vs prototype-based",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "oop",
+      "fact_type": "tech",
+      "value": "Objects with state + behavior, encapsulation, inheritance, polymorphism \u2014 Simula, Smalltalk, Java, C++; class-based vs prototype-based",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+      "source_title": "Programming Paradigm - Wikipedia"
+    },
+    {
+      "key_term": "oop_contribution",
+      "fact_type": "tech",
+      "value": "Simula: first classes/objects; Smalltalk: pure OOP, everything is an object, MVC pattern, GUI integration; C++/Java: OOP mainstreamed",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "oop_contribution",
+      "fact_type": "tech",
+      "value": "Simula: first classes/objects; Smalltalk: pure OOP, everything is an object, MVC pattern, GUI integration; C++/Java: OOP mainstreamed",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "procedural_contribution",
+      "fact_type": "tech",
+      "value": "FORTRAN/COBOL/ALGOL/C introduced: portability via compilers, abstraction from hardware, procedure/function decomposition, type systems",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "procedural_contribution",
+      "fact_type": "tech",
+      "value": "FORTRAN/COBOL/ALGOL/C introduced: portability via compilers, abstraction from hardware, procedure/function decomposition, type systems",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "structured_contribution",
+      "fact_type": "tech",
+      "value": "Dijkstra's 'Goto Considered Harmful' (1968) \u2014 replaced goto with structured control flow (if/then/else, while, for), improved readability and correctness reasoning",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "structured_contribution",
+      "fact_type": "tech",
+      "value": "Dijkstra's 'Goto Considered Harmful' (1968) \u2014 replaced goto with structured control flow (if/then/else, while, for), improved readability and correctness reasoning",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "timeline",
+      "fact_type": "tech",
+      "value": "Machine/assembly (1950s) -> Procedural high-level (1950s-60s: FORTRAN, COBOL, ALGOL, C) -> OOP (1960s-70s: Simula, Smalltalk) -> Functional (1958+: Lisp, ML, Haskell) -> Logic (1970s: Prolog) -> Structured (1960s: reaction to goto)",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    },
+    {
+      "key_term": "timeline",
+      "fact_type": "tech",
+      "value": "Machine/assembly (1950s) -> Procedural high-level (1950s-60s: FORTRAN, COBOL, ALGOL, C) -> OOP (1960s-70s: Simula, Smalltalk) -> Functional (1958+: Lisp, ML, Haskell) -> Logic (1970s: Prolog) -> Structured (1960s: reaction to goto)",
+      "confidence": 1.0,
+      "source_url": "https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms",
+      "source_title": "Past Programming Languages and Their Influences - ETHW"
+    }
+  ],
+  "subcategories": {
+    "Paradigm History": 10,
+    "Paradigm Types": 16
+  }
+}

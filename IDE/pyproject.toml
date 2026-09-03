@@ -1,0 +1,86 @@
+[project]
+name = "oreo"
+version = "0.1.0"
+description = "OREO - Visual-first, natural-language-first programming language"
+readme = "README.md"
+license = {text = "MIT OR Apache-2.0"}
+authors = [{name = "Jayson", email = "jayson@example.com"}]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "pyyaml>=6.0",
+    "toml>=0.10",
+    "rich>=13.0",
+    "typer>=0.9",
+    "networkx>=3.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+ai = [
+    "torch>=2.0",
+    "transformers>=4.30",
+    "tokenizers>=0.13",
+]
+graph = [
+    "neo4j>=5.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "pytest-cov>=4.0",
+    "ruff>=0.1",
+    "mypy>=1.0",
+    "pre-commit>=3.0",
+]
+docs = [
+    "mkdocs>=1.5",
+    "mkdocs-material>=9.0",
+    "mkdocstrings[python]>=0.24",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["test_harness"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "UP", "W", "B", "C4", "N", "D", "T20", "SIM", "RET"]
+ignore = ["D100", "D101", "D102", "D103", "D104", "D107"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+strict_optional = true
+
+[tool.mkdocs]
+site_name = "OREO Language"
+site_url = "https://oreo-lang.org"
+repo_url = "https://github.com/jayson/oreo"
+theme = "material"
+nav = [
+    ["Home", "index.md"],
+    ["Language Guide", "language_guide.md"],
+    ["API Reference", "api_reference.md"],
+    ["Visual Editor", "visual_editor_guide.md"],
+    ["AI Integration", "ai_integration_guide.md"],
+]
+markdown_extensions = [
+    "pymdownx.highlight",
+    "pymdownx.superfences",
+    "pymdownx.tabbed",
+    "admonition",
+    "toc",
+    "tables",
+    "attr_list",
+]

@@ -1,0 +1,32 @@
+category	subcategory	fact_count
+Data Serialization	Binary Formats	0
+Data Serialization	Format Comparisons	12
+Data Serialization	Text Formats	8
+Error Correcting Codes	ECC Theory	10
+Error Correcting Codes	Specific Code Families	20
+Family & Kinship	Genealogy Data Models	16
+Family & Kinship	Kinship Networks	6
+Graph-Native Programming	Code-as-Graph / AST	6
+Graph-Native Programming	Graph Rewriting	10
+Graph-Native Programming	Visual Graph Languages	10
+Hardware Reverse Engineering	Chip Decapping	10
+Hardware Reverse Engineering	PCB Reverse Engineering	8
+Hardware Reverse Engineering	Semiconductor Analysis	10
+Information Theory	History & Impact	10
+Information Theory	Shannon's Theory	12
+Machine-Level Computing	CPU Architecture	8
+Machine-Level Computing	Low-Level Programming	8
+Neo4j	Architecture & Storage	24
+Neo4j	Cypher & Query Languages	0
+Neo4j	Graph Data Science	0
+Neo4j	Products & Business	4
+Open-Source Drivers	Linux Kernel Drivers	8
+Open-Source Drivers	Open-Source GPU Drivers	12
+Open-Source Drivers	Proprietary vs Open Drivers	0
+Programming Paradigms	Paradigm History	10
+Programming Paradigms	Paradigm Types	16
+Software Engineering at Machine Level	Assembly & Debugging	8
+Software Engineering at Machine Level	Systems Programming	10
+WebAssembly	Core Spec & ISA	8
+WebAssembly	Use Cases & Embedding	14
+(30 rows)

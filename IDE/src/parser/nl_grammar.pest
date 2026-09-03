@@ -1,0 +1,354 @@
+program = { SOI ~ (construct ~ NEWLINE*)* ~ EOI }
+
+construct = {
+    function_def
+    | variable_def
+    | type_def
+    | effect_def
+    | expression
+    | comment
+    | doc_string
+}
+
+# Function definition
+function_def = {
+    ("async" ~ WHITESPACE)? ~
+    ("fn" | "function") ~ WHITESPACE ~
+    identifier ~
+    parameter_list ~
+    (WHITESPACE? ~ "->" ~ WHITESPACE? ~ type_annotation)? ~
+    (WHITESPACE? ~ effect_list)? ~
+    (WHITESPACE? ~ contract)* ~
+    WHITESPACE? ~ block
+}
+
+parameter_list = {
+    "(" ~ (parameter ~ ("," ~ WHITESPACE? ~ parameter)*)? ~ ")"
+}
+
+parameter = {
+    ("mut" ~ WHITESPACE)? ~
+    identifier ~
+    (":" ~ WHITESPACE? ~ type_annotation)? ~
+    ("=" ~ WHITESPACE? ~ expression)?
+}
+
+effect_list = {
+    "[" ~ (effect_annotation ~ ("," ~ WHITESPACE? ~ effect_annotation)*)? ~ "]"
+}
+
+# Variable definition
+variable_def = {
+    ("let" | "const") ~ WHITESPACE ~
+    identifier ~
+    (":" ~ WHITESPACE? ~ type_annotation)? ~
+    ("=" ~ WHITESPACE? ~ expression)?
+}
+
+# Type definition
+type_def = {
+    "type" ~ WHITESPACE ~
+    identifier ~
+    (type_parameter_list)? ~
+    "=" ~ WHITESPACE? ~ type_annotation
+}
+
+type_parameter_list = {
+    "<" ~ type_parameter ~ ("," ~ WHITESPACE? ~ type_parameter)* ~ ">"
+}
+
+type_parameter = {
+    identifier ~ (":" ~ WHITESPACE? ~ trait_bound)?
+}
+
+trait_bound = {
+    identifier ~ ("," ~ WHITESPACE? ~ identifier)*
+}
+
+# Effect definition
+effect_def = {
+    "effect" ~ WHITESPACE ~
+    identifier ~
+    (parameter_list)? ~
+    (WHITESPACE? ~ handler_block)?
+}
+
+handler_block = {
+    "handle" ~ WHITESPACE ~ "{" ~ handler_clause* ~ "}"
+}
+
+handler_clause = {
+    identifier ~ (pattern)? ~ "=>" ~ block
+}
+
+# Expressions
+expression = {
+    if_expr
+    | loop_expr
+    | match_expr
+    | handle_expr
+    | try_expr
+    | block
+    | return_expr
+    | binary_op
+    | unary_op
+    | call
+    | variable
+    | literal
+    | if_expr
+}
+
+# Literals
+literal = {
+    string_literal
+    | int_literal
+    | float_literal
+    | bool_literal
+}
+
+string_literal = {
+    "\"" ~ (!"\"" ~ ANY)* ~ "\""
+    | "'" ~ (!"'" ~ ANY)* ~ "'"
+}
+
+int_literal = {
+    DIGIT+ ~ ("i8" | "i16" | "i32" | "i64" | "i128" | "u8" | "u16" | "u32" | "u64" | "u128")?
+}
+
+float_literal = {
+    DIGIT+ ~ "." ~ DIGIT+ ~ ("f16" | "f32" | "f64" | "f80")?
+}
+
+bool_literal = { "true" | "false" }
+
+# Variable reference
+variable = { identifier }
+
+# Function call
+call = {
+    identifier ~ argument_list
+}
+
+argument_list = {
+    "(" ~ (expression ~ ("," ~ WHITESPACE? ~ expression)*)? ~ ")"
+}
+
+# Binary operations
+binary_op = {
+    expression ~ WHITESPACE? ~ operator ~ WHITESPACE? ~ expression
+}
+
+operator = {
+    "+" | "-" | "*" | "/" | "%" | "**"
+    | "==" | "!=" | "<" | ">" | "<=" | ">="
+    | "&&" | "||" | "^^"
+    | "&" | "|" | "^" | "<<" | ">>"
+    | ".." | "..="
+}
+
+# Unary operations
+unary_op = {
+    operator ~ expression
+}
+
+# If expression
+if_expr = {
+    "if" ~ WHITESPACE ~ expression ~
+    WHITESPACE? ~ block ~
+    (WHITESPACE? ~ "else" ~ WHITESPACE? ~ (block | if_expr))?
+}
+
+# Loop expression
+loop_expr = {
+    "loop" ~ WHITESPACE? ~ block
+    | "while" ~ WHITESPACE ~ expression ~ WHITESPACE? ~ block
+    | "for" ~ WHITESPACE ~ identifier ~ "in" ~ WHITESPACE? ~ expression ~ WHITESPACE? ~ block
+}
+
+# Match expression
+match_expr = {
+    "match" ~ WHITESPACE ~ expression ~ WHITESPACE? ~ "{" ~ match_arm* ~ "}"
+}
+
+match_arm = {
+    pattern ~ (WHITESPACE? ~ "if" ~ WHITESPACE? ~ expression)? ~ "=>" ~ block
+}
+
+# Handle expression (effect handling)
+handle_expr = {
+    "handle" ~ WHITESPACE ~ expression ~ WHITESPACE? ~ "with" ~ WHITESPACE? ~ "{" ~ handler_clause* ~ "}"
+}
+
+handler_clause = {
+    identifier ~ (pattern)? ~ "=>" ~ block
+}
+
+# Try expression
+try_expr = {
+    "try" ~ WHITESPACE? ~ block ~
+    (WHITESPACE? ~ "catch" ~ WHITESPACE? ~ pattern ~ WHITESPACE? ~ block)*
+    (WHITESPACE? ~ "finally" ~ WHITESPACE? ~ block)?
+}
+
+# Block
+block = {
+    "{" ~ (statement ~ (NEWLINE | ";")?)* ~ "}"
+}
+
+statement = {
+    variable_def
+    | expression
+    | return_expr
+    | break_expr
+    | continue_expr
+}
+
+# Return expression
+return_expr = {
+    "return" ~ (WHITESPACE? ~ expression)?
+}
+
+# Break/Continue
+break_expr = { "break" }
+continue_expr = { "continue" }
+
+# Patterns
+pattern = {
+    identifier
+    | literal
+    | constructor_pattern
+    | tuple_pattern
+    | record_pattern
+    | wildcard_pattern
+    | or_pattern
+}
+
+constructor_pattern = {
+    identifier ~ "(" ~ pattern ~ ("," ~ WHITESPACE? ~ pattern)* ~ ")"
+}
+
+tuple_pattern = {
+    "(" ~ pattern ~ ("," ~ WHITESPACE? ~ pattern)* ~ ")"
+}
+
+record_pattern = {
+    "{" ~ (identifier ~ ":" ~ WHITESPACE? ~ pattern) ~ ("," ~ WHITESPACE? ~ identifier ~ ":" ~ WHITESPACE? ~ pattern)* ~ "}"
+}
+
+wildcard_pattern = { "_" }
+
+or_pattern = {
+    pattern ~ ("|" ~ WHITESPACE? ~ pattern)+
+}
+
+# Type annotations
+type_annotation = {
+    primitive_type
+    | tuple_type
+    | record_type
+    | sum_type
+    | array_type
+    | map_type
+    | option_type
+    | result_type
+    | function_type
+    | generic_type
+    | identifier
+}
+
+primitive_type = {
+    "bool"
+    | "i8" | "i16" | "i32" | "i64" | "i128"
+    | "u8" | "u16" | "u32" | "u64" | "u128"
+    | "f16" | "f32" | "f64" | "f80"
+    | "char" | "string" | "bytes"
+    | "never"
+}
+
+tuple_type = {
+    "(" ~ type_annotation ~ ("," ~ WHITESPACE? ~ type_annotation)+ ~ ")"
+}
+
+record_type = {
+    "{" ~ (identifier ~ ":" ~ WHITESPACE? ~ type_annotation) ~ ("," ~ WHITESPACE? ~ identifier ~ ":" ~ WHITESPACE? ~ type_annotation)* ~ "}"
+}
+
+sum_type = {
+    identifier ~ ("|" ~ WHITESPACE? ~ identifier)*
+}
+
+array_type = {
+    "[" ~ type_annotation ~ (";" ~ WHITESPACE? ~ NUMBER)? ~ "]"
+}
+
+map_type = {
+    "Map" ~ "<" ~ type_annotation ~ "," ~ WHITESPACE? ~ type_annotation ~ ">"
+}
+
+option_type = {
+    "Option" ~ "<" ~ type_annotation ~ ">"
+}
+
+result_type = {
+    "Result" ~ "<" ~ type_annotation ~ "," ~ WHITESPACE? ~ type_annotation ~ ">"
+}
+
+function_type = {
+    "fn" ~ "(" ~ (type_annotation ~ ("," ~ WHITESPACE? ~ type_annotation)*)? ~ ")" ~
+    ("->" ~ WHITESPACE? ~ type_annotation)? ~
+    (WHITESPACE? ~ effect_list)?
+}
+
+generic_type = {
+    identifier ~ "<" ~ type_annotation ~ ("," ~ WHITESPACE? ~ type_annotation)* ~ ">"
+}
+
+effect_annotation = {
+    identifier ~ (parameter_list)?
+}
+
+effect_list = {
+    "[" ~ (effect_annotation ~ ("," ~ WHITESPACE? ~ effect_annotation)*)? ~ "]"
+}
+
+# Contracts
+contract = {
+    ("pre" | "post" | "invariant" | "pure" | "total" | "deterministic") ~
+    WHITESPACE? ~ expression ~
+    (WHITESPACE? ~ ":" ~ WHITESPACE? ~ STRING)?
+}
+
+# Comments and documentation
+comment = { "//" ~ (!NEWLINE ~ ANY)* }
+doc_string = { "///" ~ (!NEWLINE ~ ANY)* }
+
+# Identifiers and keywords
+identifier = @{ (ASCII_ALPHA | "_") ~ (ASCII_ALPHANUMERIC | "_")* }
+
+# Keywords (for reference in the parser)
+KEYWORDS = {
+    "fn" | "function" | "let" | "const" | "mut" | "if" | "else" | "loop" | "while" | "for"
+    | "match" | "return" | "break" | "continue" | "async" | "await" | "handle" | "try"
+    | "catch" | "finally" | "throw" | "type" | "effect" | "contract" | "struct" | "enum"
+    | "trait" | "impl" | "use" | "mod" | "pub" | "priv" | "async" | "await" | "spawn"
+    | "join" | "yield" | "true" | "false" | "null" | "none" | "some" | "self" | "super"
+    | "crate" | "unsafe" | "extern" | "abstract" | "virtual" | "override" | "final"
+}
+
+# Whitespace and newlines
+WHITESPACE = _{ " " | "\t" | "\r" }
+NEWLINE = _{ "\n" }
+
+# Numbers
+DIGIT = { "0".."9" }
+NUMBER = { DIGIT+ }
+
+# Any character
+ANY = { ANYASCII }
+
+# String escape sequences
+STRING_ESCAPE = {
+    "\\" ~ ("n" | "r" | "t" | "\\" | "\"" | "'" | "0" | "x" ~ DIGIT ~ DIGIT | "u" ~ "{" ~ HEX_DIGIT+ ~ "}")
+}
+
+HEX_DIGIT = { "0".."9" | "a".."f" | "A".."F" }

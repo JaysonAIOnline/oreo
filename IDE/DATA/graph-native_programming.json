@@ -1,0 +1,218 @@
+{
+  "category": "Graph-Native Programming",
+  "facts": [
+    {
+      "key_term": "approaches",
+      "fact_type": "tech",
+      "value": "Double-pushout (DPO), single-pushout (SPO), algebraic approach via category theory",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "approaches",
+      "fact_type": "tech",
+      "value": "Double-pushout (DPO), single-pushout (SPO), algebraic approach via category theory",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "confluence",
+      "fact_type": "tech",
+      "value": "Church-Rosser property ensures same result regardless of rule application order \u2014 essential for parallel execution",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "confluence",
+      "fact_type": "tech",
+      "value": "Church-Rosser property ensures same result regardless of rule application order \u2014 essential for parallel execution",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "definition",
+      "fact_type": "tech",
+      "value": "Directed graph where nodes are basic blocks and edges are control flow transfers",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Control-flow_graph",
+      "source_title": "Control-Flow Graph - Wikipedia"
+    },
+    {
+      "key_term": "definition",
+      "fact_type": "tech",
+      "value": "Directed graph where nodes are basic blocks and edges are control flow transfers",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Control-flow_graph",
+      "source_title": "Control-Flow Graph - Wikipedia"
+    },
+    {
+      "key_term": "examples",
+      "fact_type": "product",
+      "value": "Scratch, LabVIEW, Simulink, Unreal Blueprints, Unity Visual Scripting, Node-RED, Max/MSP",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "examples",
+      "fact_type": "product",
+      "value": "Scratch, LabVIEW, Simulink, Unreal Blueprints, Unity Visual Scripting, Node-RED, Max/MSP",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "formalism",
+      "fact_type": "tech",
+      "value": "Graph rewrite rules: pattern (LHS) matched and replaced with (RHS)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "formalism",
+      "fact_type": "tech",
+      "value": "Graph rewrite rules: pattern (LHS) matched and replaced with (RHS)",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "gap",
+      "fact_type": "research_gap",
+      "value": "Graph rewriting systems exist but are not integrated into mainstream general-purpose programming as a visual-first paradigm",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "gap",
+      "fact_type": "research_gap",
+      "value": "No general-purpose visual-first language for graph-native software engineering exists",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "gap",
+      "fact_type": "research_gap",
+      "value": "No general-purpose visual-first language for graph-native software engineering exists",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "gap",
+      "fact_type": "research_gap",
+      "value": "Graph rewriting systems exist but are not integrated into mainstream general-purpose programming as a visual-first paradigm",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "limitation",
+      "fact_type": "tech",
+      "value": "Most VPLs are domain-specific; few are general-purpose for software engineering",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "limitation",
+      "fact_type": "tech",
+      "value": "Most VPLs are domain-specific; few are general-purpose for software engineering",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "paradigm",
+      "fact_type": "tech",
+      "value": "Visual/spatial programming \u2014 code expressed as diagrams, blocks, or graphs",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "paradigm",
+      "fact_type": "tech",
+      "value": "Visual/spatial programming \u2014 code expressed as diagrams, blocks, or graphs",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "related_concepts",
+      "fact_type": "tech",
+      "value": "Data-flow graph, program dependence graph, call graph",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Control-flow_graph",
+      "source_title": "Control-Flow Graph - Wikipedia"
+    },
+    {
+      "key_term": "related_concepts",
+      "fact_type": "tech",
+      "value": "Data-flow graph, program dependence graph, call graph",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Control-flow_graph",
+      "source_title": "Control-Flow Graph - Wikipedia"
+    },
+    {
+      "key_term": "systems",
+      "fact_type": "product",
+      "value": "GP2, AGG, ReWrite, graph transformation tools",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "systems",
+      "fact_type": "product",
+      "value": "GP2, AGG, ReWrite, graph transformation tools",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Graph_rewriting",
+      "source_title": "Graph Rewriting - Wikipedia"
+    },
+    {
+      "key_term": "types",
+      "fact_type": "tech",
+      "value": "Dataflow, form-based, icon-based, graph-based, sketch-based",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "types",
+      "fact_type": "tech",
+      "value": "Dataflow, form-based, icon-based, graph-based, sketch-based",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Visual_programming_language",
+      "source_title": "Visual Programming Language - Wikipedia"
+    },
+    {
+      "key_term": "use_cases",
+      "fact_type": "tech",
+      "value": "Compiler optimization, static analysis, program slicing, debugging",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Control-flow_graph",
+      "source_title": "Control-Flow Graph - Wikipedia"
+    },
+    {
+      "key_term": "use_cases",
+      "fact_type": "tech",
+      "value": "Compiler optimization, static analysis, program slicing, debugging",
+      "confidence": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Control-flow_graph",
+      "source_title": "Control-Flow Graph - Wikipedia"
+    }
+  ],
+  "subcategories": {
+    "Code-as-Graph / AST": 6,
+    "Graph Rewriting": 10,
+    "Visual Graph Languages": 10
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "category": "Hardware Reverse Engineering",
+  "facts": [
+    {
+      "key_term": "acid",
+      "fact_type": "tech",
+      "value": "Fuming nitric + sulfuric acid \u2014 gold standard, precise, but extremely dangerous and requires lab setup",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "acid",
+      "fact_type": "tech",
+      "value": "Fuming nitric + sulfuric acid \u2014 gold standard, precise, but extremely dangerous and requires lab setup",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "cost",
+      "fact_type": "tech",
+      "value": "Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "cost",
+      "fact_type": "tech",
+      "value": "Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "decapsulation_methods",
+      "fact_type": "tech",
+      "value": "Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation \u2014 each with trade-offs in damage and resolution",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "decapsulation_methods",
+      "fact_type": "tech",
+      "value": "Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation \u2014 each with trade-offs in damage and resolution",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "gap",
+      "fact_type": "research_gap",
+      "value": "No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction \u2014 the barrier to hardware RE is high",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "gap",
+      "fact_type": "research_gap",
+      "value": "No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction \u2014 the barrier to hardware RE is high",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "grinding",
+      "fact_type": "tech",
+      "value": "Sandpaper/grind bottom of chip \u2014 keeps chip potentially functional, no acid, luck-dependent results",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "grinding",
+      "fact_type": "tech",
+      "value": "Sandpaper/grind bottom of chip \u2014 keeps chip potentially functional, no acid, luck-dependent results",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "heat_force",
+      "fact_type": "tech",
+      "value": "Heat gun (~800F) then break epoxy \u2014 simple, destructive, die visible for forensic ID but not circuit analysis",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "heat_force",
+      "fact_type": "tech",
+      "value": "Heat gun (~800F) then break epoxy \u2014 simple, destructive, die visible for forensic ID but not circuit analysis",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "ic_re",
+      "fact_type": "tech",
+      "value": "Destructive: decapsulate, delayered, image, extract netlist \u2014 expensive, expert-intensive, chip is destroyed",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "ic_re",
+      "fact_type": "tech",
+      "value": "Destructive: decapsulate, delayered, image, extract netlist \u2014 expensive, expert-intensive, chip is destroyed",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "imaging",
+      "fact_type": "tech",
+      "value": "SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "imaging",
+      "fact_type": "tech",
+      "value": "SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "legacy_hardware",
+      "fact_type": "tech",
+      "value": "Older chips (larger geometries, fewer gates) are more feasible for full IC RE \u2014 relevant for attic/basement hardware revival",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "legacy_hardware",
+      "fact_type": "tech",
+      "value": "Older chips (larger geometries, fewer gates) are more feasible for full IC RE \u2014 relevant for attic/basement hardware revival",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "pcb_re",
+      "fact_type": "tech",
+      "value": "Non-destructive: photograph, trace, identify components, reconstruct schematic \u2014 feasible with modest equipment",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "pcb_re",
+      "fact_type": "tech",
+      "value": "Non-destructive: photograph, trace, identify components, reconstruct schematic \u2014 feasible with modest equipment",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "pipeline",
+      "fact_type": "tech",
+      "value": "Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "pipeline",
+      "fact_type": "tech",
+      "value": "Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "rayv_lite",
+      "fact_type": "tech",
+      "value": "1064nm light source + camera system for seeing into chips from the bottom side \u2014 used for fault injection and side-channel analysis",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "rayv_lite",
+      "fact_type": "tech",
+      "value": "1064nm light source + camera system for seeing into chips from the bottom side \u2014 used for fault injection and side-channel analysis",
+      "confidence": 1.0,
+      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
+      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+    },
+    {
+      "key_term": "software_tools",
+      "fact_type": "tech",
+      "value": "Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction \u2014 expensive and specialized",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "software_tools",
+      "fact_type": "tech",
+      "value": "Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction \u2014 expensive and specialized",
+      "confidence": 1.0,
+      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+    },
+    {
+      "key_term": "standard_cell_recognition",
+      "fact_type": "tech",
+      "value": "Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    },
+    {
+      "key_term": "standard_cell_recognition",
+      "fact_type": "tech",
+      "value": "Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",
+      "confidence": 1.0,
+      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+    }
+  ],
+  "subcategories": {
+    "Chip Decapping": 10,
+    "PCB Reverse Engineering": 8,
+    "Semiconductor Analysis": 10
+  }
+}

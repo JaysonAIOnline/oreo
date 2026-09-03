@@ -1,0 +1,16 @@
+
+define function read_file(path: String) -> String
+  var handle = call open(path, "r")
+  var content = call read_all(handle)
+  call close(handle)
+  return content
+
+define function write_file(path: String, content: String) -> Unit
+  var handle = call open(path, "w")
+  call write(handle, content)
+  call close(handle)
+
+define function main
+  call write_file("test.txt", "Hello from OREO!")
+  var content = call read_file("test.txt")
+  call print content

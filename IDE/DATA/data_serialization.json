@@ -1,0 +1,170 @@
+{
+  "category": "Data Serialization",
+  "facts": [
+    {
+      "key_term": "avro",
+      "fact_type": "tech",
+      "value": "Schema-driven binary, 0.25x size, schema in payload, schema evolution, Hadoop ecosystem, compact",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "avro",
+      "fact_type": "tech",
+      "value": "Schema-driven binary, 0.25x size, schema in payload, schema evolution, Hadoop ecosystem, compact",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "bson",
+      "fact_type": "tech",
+      "value": "Binary JSON, designed for in-memory manipulation, convenient binary type, used primarily by MongoDB, can be larger than JSON",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "bson",
+      "fact_type": "tech",
+      "value": "Binary JSON, designed for in-memory manipulation, convenient binary type, used primarily by MongoDB, can be larger than JSON",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "cbor",
+      "fact_type": "tech",
+      "value": "IETF RFC 8949, binary, self-describing, native binary/date/tags, 0.7x size \u2014 IoT and standards track",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "cbor",
+      "fact_type": "tech",
+      "value": "IETF RFC 8949, binary, self-describing, native binary/date/tags, 0.7x size \u2014 IoT and standards track",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "choice_factors",
+      "fact_type": "tech",
+      "value": "Human readability vs compactness vs speed vs schema evolution vs ecosystem integration",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "choice_factors",
+      "fact_type": "tech",
+      "value": "Human readability vs compactness vs speed vs schema evolution vs ecosystem integration",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "json",
+      "fact_type": "tech",
+      "value": "Text, human-readable, self-describing, universal tooling, verbose, no schema, baseline 1.0x",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "json",
+      "fact_type": "tech",
+      "value": "Text, human-readable, self-describing, universal tooling, verbose, no schema, baseline 1.0x",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "json_limits",
+      "fact_type": "tech",
+      "value": "No native comments, no multi-line strings, limited data types (no binary, no date, no custom types)",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "json_limits",
+      "fact_type": "tech",
+      "value": "No native comments, no multi-line strings, limited data types (no binary, no date, no custom types)",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "messagepack",
+      "fact_type": "tech",
+      "value": "Binary, schema-free, self-describing, 0.7x size, 1.5x encode, 1.8x decode \u2014 pragmatic JSON upgrade",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "messagepack",
+      "fact_type": "tech",
+      "value": "Binary, schema-free, self-describing, 0.7x size, 1.5x encode, 1.8x decode \u2014 pragmatic JSON upgrade",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "messagepack_limits",
+      "fact_type": "tech",
+      "value": "Encodes same data model as JSON (objects, arrays, strings, numbers, bools, null), no native date type",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "messagepack_limits",
+      "fact_type": "tech",
+      "value": "Encodes same data model as JSON (objects, arrays, strings, numbers, bools, null), no native date type",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "protobuf",
+      "fact_type": "tech",
+      "value": "Schema-driven binary, 0.3x size, 3.0x encode, 4.0x decode, strong typing, schema evolution rules, gRPC standard",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "protobuf",
+      "fact_type": "tech",
+      "value": "Schema-driven binary, 0.3x size, 3.0x encode, 4.0x decode, strong typing, schema evolution rules, gRPC standard",
+      "confidence": 1.0,
+      "source_url": "https://codelit.io/blog/data-serialization-formats",
+      "source_title": "Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit"
+    },
+    {
+      "key_term": "yaml_features",
+      "fact_type": "tech",
+      "value": "Superset of JSON \u2014 comments, multi-line strings, anchors/references, complex spec, potential parsing inconsistency between implementations",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    },
+    {
+      "key_term": "yaml_features",
+      "fact_type": "tech",
+      "value": "Superset of JSON \u2014 comments, multi-line strings, anchors/references, complex spec, potential parsing inconsistency between implementations",
+      "confidence": 1.0,
+      "source_url": "https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack",
+      "source_title": "Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+    }
+  ],
+  "subcategories": {
+    "Binary Formats": 0,
+    "Format Comparisons": 12,
+    "Text Formats": 8
+  }
+}
