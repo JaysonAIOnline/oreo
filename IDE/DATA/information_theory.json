@@ -2,184 +2,114 @@
   "category": "Information Theory",
   "facts": [
     {
+      "fact_id": "0f42d220-68e5-4aca-9acb-4e5325fd2085",
       "key_term": "bit_definition",
       "fact_type": "tech",
       "value": "Shannon formally introduced the 'bit' as a unit of information (binary digit, credited to John Tukey)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
+      "source_title": "A Mathematical Theory of Communication - Wikipedia",
+      "source_id": "3210e252-4d33-421c-849d-9c4f957c0560"
     },
     {
-      "key_term": "bit_definition",
-      "fact_type": "tech",
-      "value": "Shannon formally introduced the 'bit' as a unit of information (binary digit, credited to John Tukey)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
-    },
-    {
+      "fact_id": "5529d67f-38ff-4de6-b878-7875a9807025",
       "key_term": "capacity_definition",
       "fact_type": "tech",
       "value": "C = max I(X;Y) \u2014 maximum mutual information between channel input and output over all input distributions",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
+      "source_title": "Noisy-Channel Coding Theorem - Wikipedia",
+      "source_id": "a91403d7-6295-4078-ab84-19200481846b"
     },
     {
-      "key_term": "capacity_definition",
-      "fact_type": "tech",
-      "value": "C = max I(X;Y) \u2014 maximum mutual information between channel input and output over all input distributions",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
-    },
-    {
+      "fact_id": "724ec062-c9eb-4008-ba51-122ce9cfd859",
       "key_term": "communication_model",
       "fact_type": "tech",
       "value": "Source -> Transmitter (encoder) -> Channel (possibly noisy) -> Receiver (decoder) -> Destination",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
+      "source_title": "A Mathematical Theory of Communication - Wikipedia",
+      "source_id": "3210e252-4d33-421c-849d-9c4f957c0560"
     },
     {
-      "key_term": "communication_model",
-      "fact_type": "tech",
-      "value": "Source -> Transmitter (encoder) -> Channel (possibly noisy) -> Receiver (decoder) -> Destination",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
-    },
-    {
+      "fact_id": "d279786e-0101-4d93-a0e9-3bd4eb704ef1",
       "key_term": "entropy",
       "fact_type": "tech",
       "value": "H = -\u03a3 pi log2 pi \u2014 average information per symbol; also the theoretical minimum compression limit (source coding theorem)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
+      "source_title": "A Mathematical Theory of Communication - Wikipedia",
+      "source_id": "3210e252-4d33-421c-849d-9c4f957c0560"
     },
     {
-      "key_term": "entropy",
-      "fact_type": "tech",
-      "value": "H = -\u03a3 pi log2 pi \u2014 average information per symbol; also the theoretical minimum compression limit (source coding theorem)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
-    },
-    {
+      "fact_id": "09f2b78a-138e-418a-a683-ca3ff96fb3b4",
       "key_term": "impact",
       "fact_type": "tech",
       "value": "Called 'Magna Carta of the Information Age' \u2014 founded the mathematical discipline of information theory",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
+      "source_title": "A Mathematical Theory of Communication - Wikipedia",
+      "source_id": "3210e252-4d33-421c-849d-9c4f957c0560"
     },
     {
-      "key_term": "impact",
-      "fact_type": "tech",
-      "value": "Called 'Magna Carta of the Information Age' \u2014 founded the mathematical discipline of information theory",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
-    },
-    {
+      "fact_id": "3a171326-5979-4def-8341-330e83aafccf",
       "key_term": "non_constructive",
       "fact_type": "tech",
       "value": "Theorem proves codes EXIST below capacity but doesn't construct them \u2014 finding practical near-capacity codes was a decades-long effort",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
+      "source_title": "Noisy-Channel Coding Theorem - Wikipedia",
+      "source_id": "a91403d7-6295-4078-ab84-19200481846b"
     },
     {
-      "key_term": "non_constructive",
-      "fact_type": "tech",
-      "value": "Theorem proves codes EXIST below capacity but doesn't construct them \u2014 finding practical near-capacity codes was a decades-long effort",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
-    },
-    {
+      "fact_id": "433b3012-6ac8-4ec3-a76d-24d7dec9d370",
       "key_term": "practical_codes",
       "fact_type": "tech",
       "value": "LDPC codes and turbo codes approach the Shannon limit within fractions of a dB \u2014 used in 4G, 5G, Wi-Fi, DVB-S2",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
+      "source_title": "Noisy-Channel Coding Theorem - Wikipedia",
+      "source_id": "a91403d7-6295-4078-ab84-19200481846b"
     },
     {
-      "key_term": "practical_codes",
-      "fact_type": "tech",
-      "value": "LDPC codes and turbo codes approach the Shannon limit within fractions of a dB \u2014 used in 4G, 5G, Wi-Fi, DVB-S2",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
-    },
-    {
+      "fact_id": "b71a0032-9db5-4cd2-9763-de23d6ee7634",
       "key_term": "proof_approach",
       "fact_type": "tech",
       "value": "Achievability via random coding + typical set decoding; converse via Fano's inequality bounding error from below",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
+      "source_title": "Noisy-Channel Coding Theorem - Wikipedia",
+      "source_id": "a91403d7-6295-4078-ab84-19200481846b"
     },
     {
-      "key_term": "proof_approach",
-      "fact_type": "tech",
-      "value": "Achievability via random coding + typical set decoding; converse via Fano's inequality bounding error from below",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
-    },
-    {
+      "fact_id": "33168443-1f7a-4aa5-b37d-d952dd602ada",
       "key_term": "redundancy",
       "fact_type": "tech",
       "value": "Adding redundancy enables error correction \u2014 the trade-off between data rate and reliability",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
+      "source_title": "A Mathematical Theory of Communication - Wikipedia",
+      "source_id": "3210e252-4d33-421c-849d-9c4f957c0560"
     },
     {
-      "key_term": "redundancy",
-      "fact_type": "tech",
-      "value": "Adding redundancy enables error correction \u2014 the trade-off between data rate and reliability",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
-      "source_title": "A Mathematical Theory of Communication - Wikipedia"
-    },
-    {
+      "fact_id": "5065112c-2661-49f9-8e49-55548ddfb741",
       "key_term": "shannon_hartley",
       "fact_type": "tech",
       "value": "For bandlimited AWGN channel: C = W * log2(1 + S/N) \u2014 capacity depends on bandwidth W and signal-to-noise ratio",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
+      "source_title": "Noisy-Channel Coding Theorem - Wikipedia",
+      "source_id": "a91403d7-6295-4078-ab84-19200481846b"
     },
     {
-      "key_term": "shannon_hartley",
-      "fact_type": "tech",
-      "value": "For bandlimited AWGN channel: C = W * log2(1 + S/N) \u2014 capacity depends on bandwidth W and signal-to-noise ratio",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
-    },
-    {
+      "fact_id": "f28f4fd1-9806-4aee-b1ac-62d5054e872d",
       "key_term": "theorem",
       "fact_type": "tech",
       "value": "For any discrete memoryless channel with capacity C: reliable communication is possible at any rate R < C, impossible at R > C",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
-    },
-    {
-      "key_term": "theorem",
-      "fact_type": "tech",
-      "value": "For any discrete memoryless channel with capacity C: reliable communication is possible at any rate R < C, impossible at R > C",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem",
-      "source_title": "Noisy-Channel Coding Theorem - Wikipedia"
+      "source_title": "Noisy-Channel Coding Theorem - Wikipedia",
+      "source_id": "a91403d7-6295-4078-ab84-19200481846b"
     }
-  ],
-  "subcategories": {
-    "History & Impact": 10,
-    "Shannon's Theory": 12
-  }
+  ]
 }

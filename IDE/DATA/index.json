@@ -1,106 +1,102 @@
 {
-  "total_facts": 278,
+  "total_facts": 139,
   "total_categories": 12,
   "categories": {
     "Data Serialization": {
-      "fact_count": 20,
+      "fact_count": 10,
       "subcategories": {
-        "Binary Formats": 0,
-        "Format Comparisons": 12,
-        "Text Formats": 8
+        "Format Comparisons": 1,
+        "Text Formats": 1
       },
       "file": "DATA/data_serialization.json"
     },
     "Error Correcting Codes": {
-      "fact_count": 30,
+      "fact_count": 15,
       "subcategories": {
-        "ECC Theory": 10,
-        "Specific Code Families": 20
+        "ECC Theory": 1,
+        "Specific Code Families": 2
       },
       "file": "DATA/error_correcting_codes.json"
     },
     "Family & Kinship": {
-      "fact_count": 22,
+      "fact_count": 11,
       "subcategories": {
-        "Genealogy Data Models": 16,
-        "Kinship Networks": 6
+        "Genealogy Data Models": 2,
+        "Kinship Networks": 1
       },
-      "file": "DATA/family_and_kinship.json"
+      "file": "DATA/family_&_kinship.json"
     },
     "Graph-Native Programming": {
-      "fact_count": 26,
+      "fact_count": 13,
       "subcategories": {
-        "Code-as-Graph / AST": 6,
-        "Graph Rewriting": 10,
-        "Visual Graph Languages": 10
+        "Code-as-Graph / AST": 1,
+        "Graph Rewriting": 1,
+        "Visual Graph Languages": 1
       },
       "file": "DATA/graph-native_programming.json"
     },
     "Hardware Reverse Engineering": {
-      "fact_count": 28,
+      "fact_count": 14,
       "subcategories": {
-        "Chip Decapping": 10,
-        "PCB Reverse Engineering": 8,
-        "Semiconductor Analysis": 10
+        "Chip Decapping": 1,
+        "PCB Reverse Engineering": 1,
+        "Semiconductor Analysis": 1
       },
       "file": "DATA/hardware_reverse_engineering.json"
     },
     "Information Theory": {
-      "fact_count": 22,
+      "fact_count": 11,
       "subcategories": {
-        "History & Impact": 10,
-        "Shannon's Theory": 12
+        "History & Impact": 1,
+        "Shannon's Theory": 1
       },
       "file": "DATA/information_theory.json"
     },
     "Machine-Level Computing": {
-      "fact_count": 16,
+      "fact_count": 8,
       "subcategories": {
-        "CPU Architecture": 8,
-        "Low-Level Programming": 8
+        "CPU Architecture": 1,
+        "Low-Level Programming": 1
       },
       "file": "DATA/machine-level_computing.json"
     },
     "Neo4j": {
-      "fact_count": 28,
+      "fact_count": 14,
       "subcategories": {
-        "Architecture & Storage": 24,
-        "Cypher & Query Languages": 0,
-        "Graph Data Science": 0,
-        "Products & Business": 4
+        "Architecture & Storage": 2,
+        "Products & Business": 1
       },
       "file": "DATA/neo4j.json"
     },
     "Open-Source Drivers": {
-      "fact_count": 20,
+      "fact_count": 10,
       "subcategories": {
-        "Linux Kernel Drivers": 8,
-        "Open-Source GPU Drivers": 12,
-        "Proprietary vs Open Drivers": 0
+        "Linux Kernel Drivers": 1,
+        "Open-Source GPU Drivers": 1
       },
       "file": "DATA/open-source_drivers.json"
     },
     "Programming Paradigms": {
-      "fact_count": 26,
+      "fact_count": 13,
       "subcategories": {
-        "Paradigm History": 10,
-        "Paradigm Types": 16
+        "Paradigm History": 1,
+        "Paradigm Types": 1
       },
       "file": "DATA/programming_paradigms.json"
     },
     "Software Engineering at Machine Level": {
-      "fact_count": 18,
+      "fact_count": 9,
       "subcategories": {
-        "Assembly & Debugging": 8,
-        "Systems Programming": 10
+        "Assembly & Debugging": 1,
+        "Systems Programming": 1
       },
       "file": "DATA/software_engineering_at_machine_level.json"
     },
     "WebAssembly": {
-      "fact_count": 22,
+      "fact_count": 11,
       "subcategories": {
-        "Core Spec & ISA": 8,
-        "Use Cases & Embedding": 14
+        "Core Spec & ISA": 1,
+        "Use Cases & Embedding": 1
       },
       "file": "DATA/webassembly.json"
     }

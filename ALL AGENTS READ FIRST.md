@@ -54,10 +54,11 @@ sudo -u postgres psql -d neo4j_research
 | `research_runs` | Ingestion run metadata |
 | `research_run_sources` | Run→source mapping |
 
-**Current Content (as of 2026-08-27):**
+**Current Content (as of 2026-09-08 after data-integrity cleanup, refreshed by `DATA/sync_neo4j_to_oreo.py`):**
 - **12 Categories:** Neo4j, Graph-Native Programming, Machine-Level Computing, Error Correcting Codes, Family & Kinship, Hardware Reverse Engineering, Information Theory, Open-Source Drivers, Programming Paradigms, Software Engineering at Machine Level, WebAssembly, Data Serialization
-- **59 Sources** → **59 Sections** → **285 Facts**
+- **29 Sources** → **29 Sections** → **139 Facts** (deduped: duplicate source URLs were ingested twice, inflating 139 facts to 285 rows)
 - **30 Subcategories** across all categories
+- **Sync:** `/root/.venv/bin/python DATA/sync_neo4j_to_oreo.py` regenerates `IDE/DATA/*.json` + `index.json` + `DATA/exports/*.csv` from the `neo4j_research` Postgres DB (was `family_and_kinship.json`, now `family_&_kinship.json`).
 
 **Key Categories for OREO Language Design:**
 1. **Graph-Native Programming** — Languages where code IS a graph

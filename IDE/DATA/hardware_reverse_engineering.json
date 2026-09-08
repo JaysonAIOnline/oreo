@@ -2,233 +2,144 @@
   "category": "Hardware Reverse Engineering",
   "facts": [
     {
+      "fact_id": "4a509193-b11d-4147-8d3c-46cfd89d026b",
       "key_term": "acid",
       "fact_type": "tech",
       "value": "Fuming nitric + sulfuric acid \u2014 gold standard, precise, but extremely dangerous and requires lab setup",
       "confidence": 1.0,
       "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+      "source_title": "Practical Methods for Decapping Chips - NetSPI",
+      "source_id": "56098425-d5bf-4522-8155-2d96a163f403"
     },
     {
-      "key_term": "acid",
-      "fact_type": "tech",
-      "value": "Fuming nitric + sulfuric acid \u2014 gold standard, precise, but extremely dangerous and requires lab setup",
-      "confidence": 1.0,
-      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
-    },
-    {
+      "fact_id": "34fdd21f-2820-4655-96b9-7806c10073e8",
       "key_term": "cost",
       "fact_type": "tech",
       "value": "Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise",
       "confidence": 1.0,
       "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci",
+      "source_id": "7b008e96-0bf4-4a5b-9f65-c3ab016d5c32"
     },
     {
-      "key_term": "cost",
-      "fact_type": "tech",
-      "value": "Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise",
-      "confidence": 1.0,
-      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
-    },
-    {
+      "fact_id": "0701bc4b-d193-4aa4-ac78-ae2f5fe7d303",
       "key_term": "decapsulation_methods",
       "fact_type": "tech",
       "value": "Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation \u2014 each with trade-offs in damage and resolution",
       "confidence": 1.0,
       "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci",
+      "source_id": "7b008e96-0bf4-4a5b-9f65-c3ab016d5c32"
     },
     {
-      "key_term": "decapsulation_methods",
-      "fact_type": "tech",
-      "value": "Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation \u2014 each with trade-offs in damage and resolution",
-      "confidence": 1.0,
-      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
-    },
-    {
+      "fact_id": "412e9176-9437-4f62-84c6-7a00fb6f9bc2",
       "key_term": "gap",
       "fact_type": "research_gap",
       "value": "No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction \u2014 the barrier to hardware RE is high",
       "confidence": 1.0,
       "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+      "source_title": "Practical Methods for Decapping Chips - NetSPI",
+      "source_id": "56098425-d5bf-4522-8155-2d96a163f403"
     },
     {
-      "key_term": "gap",
-      "fact_type": "research_gap",
-      "value": "No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction \u2014 the barrier to hardware RE is high",
-      "confidence": 1.0,
-      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
-    },
-    {
+      "fact_id": "0ea5159f-8a01-4316-ac09-d94f129ac749",
       "key_term": "grinding",
       "fact_type": "tech",
       "value": "Sandpaper/grind bottom of chip \u2014 keeps chip potentially functional, no acid, luck-dependent results",
       "confidence": 1.0,
       "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+      "source_title": "Practical Methods for Decapping Chips - NetSPI",
+      "source_id": "56098425-d5bf-4522-8155-2d96a163f403"
     },
     {
-      "key_term": "grinding",
-      "fact_type": "tech",
-      "value": "Sandpaper/grind bottom of chip \u2014 keeps chip potentially functional, no acid, luck-dependent results",
-      "confidence": 1.0,
-      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
-    },
-    {
+      "fact_id": "603e0438-9525-49af-9768-54877a6d5ecd",
       "key_term": "heat_force",
       "fact_type": "tech",
       "value": "Heat gun (~800F) then break epoxy \u2014 simple, destructive, die visible for forensic ID but not circuit analysis",
       "confidence": 1.0,
       "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+      "source_title": "Practical Methods for Decapping Chips - NetSPI",
+      "source_id": "56098425-d5bf-4522-8155-2d96a163f403"
     },
     {
-      "key_term": "heat_force",
-      "fact_type": "tech",
-      "value": "Heat gun (~800F) then break epoxy \u2014 simple, destructive, die visible for forensic ID but not circuit analysis",
-      "confidence": 1.0,
-      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
-    },
-    {
+      "fact_id": "b21bfb03-2d0c-4652-bf0b-f4c3d6eae1b7",
       "key_term": "ic_re",
       "fact_type": "tech",
       "value": "Destructive: decapsulate, delayered, image, extract netlist \u2014 expensive, expert-intensive, chip is destroyed",
       "confidence": 1.0,
       "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect",
+      "source_id": "53378a7a-ac75-4630-bf38-f9b1c4dcb0d8"
     },
     {
-      "key_term": "ic_re",
-      "fact_type": "tech",
-      "value": "Destructive: decapsulate, delayered, image, extract netlist \u2014 expensive, expert-intensive, chip is destroyed",
-      "confidence": 1.0,
-      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
-    },
-    {
+      "fact_id": "1ceb20c2-6cc7-4277-9d7d-c3070dfd2d57",
       "key_term": "imaging",
       "fact_type": "tech",
       "value": "SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview",
       "confidence": 1.0,
       "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci",
+      "source_id": "7b008e96-0bf4-4a5b-9f65-c3ab016d5c32"
     },
     {
-      "key_term": "imaging",
-      "fact_type": "tech",
-      "value": "SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview",
-      "confidence": 1.0,
-      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
-    },
-    {
+      "fact_id": "26bd8ab0-d2b4-40ee-afae-90acdd476782",
       "key_term": "legacy_hardware",
       "fact_type": "tech",
       "value": "Older chips (larger geometries, fewer gates) are more feasible for full IC RE \u2014 relevant for attic/basement hardware revival",
       "confidence": 1.0,
       "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect",
+      "source_id": "53378a7a-ac75-4630-bf38-f9b1c4dcb0d8"
     },
     {
-      "key_term": "legacy_hardware",
-      "fact_type": "tech",
-      "value": "Older chips (larger geometries, fewer gates) are more feasible for full IC RE \u2014 relevant for attic/basement hardware revival",
-      "confidence": 1.0,
-      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
-    },
-    {
+      "fact_id": "7136c15e-baa6-4bcb-b64e-e8a34ca9f839",
       "key_term": "pcb_re",
       "fact_type": "tech",
       "value": "Non-destructive: photograph, trace, identify components, reconstruct schematic \u2014 feasible with modest equipment",
       "confidence": 1.0,
       "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect",
+      "source_id": "53378a7a-ac75-4630-bf38-f9b1c4dcb0d8"
     },
     {
-      "key_term": "pcb_re",
-      "fact_type": "tech",
-      "value": "Non-destructive: photograph, trace, identify components, reconstruct schematic \u2014 feasible with modest equipment",
-      "confidence": 1.0,
-      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
-    },
-    {
+      "fact_id": "03ec16a7-4b77-47ef-8971-97a42aaafb8b",
       "key_term": "pipeline",
       "fact_type": "tech",
       "value": "Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis",
       "confidence": 1.0,
       "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci",
+      "source_id": "7b008e96-0bf4-4a5b-9f65-c3ab016d5c32"
     },
     {
-      "key_term": "pipeline",
-      "fact_type": "tech",
-      "value": "Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis",
-      "confidence": 1.0,
-      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
-    },
-    {
+      "fact_id": "30f6afb5-ea1a-440c-94e2-ce0eb344d612",
       "key_term": "rayv_lite",
       "fact_type": "tech",
       "value": "1064nm light source + camera system for seeing into chips from the bottom side \u2014 used for fault injection and side-channel analysis",
       "confidence": 1.0,
       "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
+      "source_title": "Practical Methods for Decapping Chips - NetSPI",
+      "source_id": "56098425-d5bf-4522-8155-2d96a163f403"
     },
     {
-      "key_term": "rayv_lite",
-      "fact_type": "tech",
-      "value": "1064nm light source + camera system for seeing into chips from the bottom side \u2014 used for fault injection and side-channel analysis",
-      "confidence": 1.0,
-      "source_url": "https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/",
-      "source_title": "Practical Methods for Decapping Chips - NetSPI"
-    },
-    {
+      "fact_id": "1ef59e3e-25d1-47bb-b39d-fc68617019ca",
       "key_term": "software_tools",
       "fact_type": "tech",
       "value": "Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction \u2014 expensive and specialized",
       "confidence": 1.0,
       "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
+      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect",
+      "source_id": "53378a7a-ac75-4630-bf38-f9b1c4dcb0d8"
     },
     {
-      "key_term": "software_tools",
-      "fact_type": "tech",
-      "value": "Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction \u2014 expensive and specialized",
-      "confidence": 1.0,
-      "source_url": "https://ghbintellect.com/hardware-reverse-engineering/",
-      "source_title": "What is Hardware Reverse Engineering? - GHB Intellect"
-    },
-    {
+      "fact_id": "8bc0b936-3c93-4cc1-8c41-0a35ae59dbed",
       "key_term": "standard_cell_recognition",
       "fact_type": "tech",
       "value": "Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",
       "confidence": 1.0,
       "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
-    },
-    {
-      "key_term": "standard_cell_recognition",
-      "fact_type": "tech",
-      "value": "Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",
-      "confidence": 1.0,
-      "source_url": "https://lumenci.com/blogs/semiconductor-reverse-engineering-process/",
-      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci"
+      "source_title": "Semiconductor Reverse Engineering: The Complete Process - Lumenci",
+      "source_id": "7b008e96-0bf4-4a5b-9f65-c3ab016d5c32"
     }
-  ],
-  "subcategories": {
-    "Chip Decapping": 10,
-    "PCB Reverse Engineering": 8,
-    "Semiconductor Analysis": 10
-  }
+  ]
 }

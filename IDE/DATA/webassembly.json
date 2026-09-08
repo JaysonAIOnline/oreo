@@ -2,184 +2,114 @@
   "category": "WebAssembly",
   "facts": [
     {
+      "fact_id": "5f727d41-3053-490d-b1ef-3f631d23684d",
       "key_term": "atomic_ops",
       "fact_type": "tech",
       "value": "Lock-free atomic operators for 8/16/32-bit required (and 64-bit for wasm64) \u2014 enables threads and shared memory",
       "confidence": 1.0,
       "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
+      "source_title": "WebAssembly Portability Documentation",
+      "source_id": "0550a2be-c003-4595-bf06-f8b58233c6e2"
     },
     {
-      "key_term": "atomic_ops",
-      "fact_type": "tech",
-      "value": "Lock-free atomic operators for 8/16/32-bit required (and 64-bit for wasm64) \u2014 enables threads and shared memory",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
-    },
-    {
+      "fact_id": "11757087-7005-4cdf-8613-267f9089c7d6",
       "key_term": "binary_format",
       "fact_type": "tech",
       "value": "Compact, modular, efficient single-pass decode/validate/compile, streamable, parallelizable",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "binary_format",
-      "fact_type": "tech",
-      "value": "Compact, modular, efficient single-pass decode/validate/compile, streamable, parallelizable",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "1594194d-dd74-4257-b83d-0237f31cb849",
       "key_term": "design_goals",
       "fact_type": "tech",
       "value": "Fast (near-native), safe (sandboxed, memory-safe), well-defined (formal semantics), HW-independent, language-independent, platform-independent",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "design_goals",
-      "fact_type": "tech",
-      "value": "Fast (near-native), safe (sandboxed, memory-safe), well-defined (formal semantics), HW-independent, language-independent, platform-independent",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "785d5fbe-d13f-420d-857d-1b9857b8aad6",
       "key_term": "non_web",
       "fact_type": "tech",
       "value": "WebAssembly doesn't make Web-specific assumptions \u2014 designed for non-web embeddings (server, edge, embedded) from the start",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "non_web",
-      "fact_type": "tech",
-      "value": "WebAssembly doesn't make Web-specific assumptions \u2014 designed for non-web embeddings (server, edge, embedded) from the start",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "91bb712b-2206-445a-905f-5a8a2cd27465",
       "key_term": "portability_requirements",
       "fact_type": "tech",
       "value": "8-bit bytes, byte-addressable, two's complement 32-bit ints, IEEE 754 float, little-endian, 32-bit pointers",
       "confidence": 1.0,
       "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
+      "source_title": "WebAssembly Portability Documentation",
+      "source_id": "0550a2be-c003-4595-bf06-f8b58233c6e2"
     },
     {
-      "key_term": "portability_requirements",
-      "fact_type": "tech",
-      "value": "8-bit bytes, byte-addressable, two's complement 32-bit ints, IEEE 754 float, little-endian, 32-bit pointers",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
-    },
-    {
+      "fact_id": "6e1f9ffc-3bc9-4fbe-910a-4b4e94f8938b",
       "key_term": "sandbox",
       "fact_type": "tech",
       "value": "No ambient access \u2014 I/O, syscalls only through imports provided by the embedder; module cannot escape sandbox",
       "confidence": 1.0,
       "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
+      "source_title": "WebAssembly Portability Documentation",
+      "source_id": "0550a2be-c003-4595-bf06-f8b58233c6e2"
     },
     {
-      "key_term": "sandbox",
-      "fact_type": "tech",
-      "value": "No ambient access \u2014 I/O, syscalls only through imports provided by the embedder; module cannot escape sandbox",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
-    },
-    {
+      "fact_id": "2867bb42-ef2f-4ab8-bc3a-bd97a2fe9383",
       "key_term": "security_model",
       "fact_type": "tech",
       "value": "No ambient access \u2014 all I/O through imports; sandboxed execution; CFI via structured control flow; protected call stack",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "security_model",
-      "fact_type": "tech",
-      "value": "No ambient access \u2014 all I/O through imports; sandboxed execution; CFI via structured control flow; protected call stack",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "016f13bb-2908-4929-931e-67dd65647d6d",
       "key_term": "text_format",
       "fact_type": "tech",
       "value": "Human-readable text format (WAT) for debugging, teaching, hand-written modules \u2014 1:1 correspondence with binary",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "text_format",
-      "fact_type": "tech",
-      "value": "Human-readable text format (WAT) for debugging, teaching, hand-written modules \u2014 1:1 correspondence with binary",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "ee924e9c-a803-41dd-96a4-aa4ad165edbf",
       "key_term": "use_cases",
       "fact_type": "tech",
       "value": "Web (high-performance apps in browser), server-side (edge compute, serverless), embedded, language runtime targeting, plugin systems",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "use_cases",
-      "fact_type": "tech",
-      "value": "Web (high-performance apps in browser), server-side (edge compute, serverless), embedded, language runtime targeting, plugin systems",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "62b8a331-35a7-423c-856a-f634f894c12a",
       "key_term": "virtual_isa",
       "fact_type": "tech",
       "value": "WebAssembly is a virtual instruction set architecture \u2014 not tied to specific hardware but maps to all modern architectures",
       "confidence": 1.0,
       "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
+      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)",
+      "source_id": "18d96e3b-f227-4d0a-97e5-a874dbe3876f"
     },
     {
-      "key_term": "virtual_isa",
-      "fact_type": "tech",
-      "value": "WebAssembly is a virtual instruction set architecture \u2014 not tied to specific hardware but maps to all modern architectures",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.github.io/spec/core/intro/introduction.html",
-      "source_title": "WebAssembly Core Specification Introduction (3.0, 2026)"
-    },
-    {
+      "fact_id": "739745f9-3d6a-442c-96d2-aa060c192f86",
       "key_term": "wasm64",
       "fact_type": "tech",
       "value": "Extension for linear memory >4GB using 64-bit pointers/indices",
       "confidence": 1.0,
       "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
-    },
-    {
-      "key_term": "wasm64",
-      "fact_type": "tech",
-      "value": "Extension for linear memory >4GB using 64-bit pointers/indices",
-      "confidence": 1.0,
-      "source_url": "https://webassembly.org/docs/portability/",
-      "source_title": "WebAssembly Portability Documentation"
+      "source_title": "WebAssembly Portability Documentation",
+      "source_id": "0550a2be-c003-4595-bf06-f8b58233c6e2"
     }
-  ],
-  "subcategories": {
-    "Core Spec & ISA": 8,
-    "Use Cases & Embedding": 14
-  }
+  ]
 }

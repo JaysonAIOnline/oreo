@@ -2,136 +2,84 @@
   "category": "Machine-Level Computing",
   "facts": [
     {
+      "fact_id": "2492f12b-28bf-48a8-abc1-8eb36f78dd16",
       "key_term": "abstraction_level",
       "fact_type": "tech",
       "value": "Direct hardware access \u2014 registers, memory, stack, CPU flags \u2014 no runtime abstractions",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
+      "source_title": "Assembly Language - Wikipedia",
+      "source_id": "1e2b09bc-628d-4633-b5a8-293b5d2f72ce"
     },
     {
-      "key_term": "abstraction_level",
-      "fact_type": "tech",
-      "value": "Direct hardware access \u2014 registers, memory, stack, CPU flags \u2014 no runtime abstractions",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
-    },
-    {
+      "fact_id": "1c4e486a-f6d3-44fa-9a55-2e8f251e100d",
       "key_term": "characteristic",
       "fact_type": "tech",
       "value": "Architecture-specific \u2014 x86, ARM, RISC-V, MIPS each have different assembly",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
+      "source_title": "Assembly Language - Wikipedia",
+      "source_id": "1e2b09bc-628d-4633-b5a8-293b5d2f72ce"
     },
     {
-      "key_term": "characteristic",
-      "fact_type": "tech",
-      "value": "Architecture-specific \u2014 x86, ARM, RISC-V, MIPS each have different assembly",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
-    },
-    {
+      "fact_id": "81105d16-47aa-4044-971a-656eaf4cd8c5",
       "key_term": "components",
       "fact_type": "tech",
       "value": "ALU (arithmetic/logic), control unit, registers, program counter, cache",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
+      "source_title": "CPU - Wikipedia",
+      "source_id": "38b6f965-1d35-4579-97fb-2f0301308df9"
     },
     {
-      "key_term": "components",
-      "fact_type": "tech",
-      "value": "ALU (arithmetic/logic), control unit, registers, program counter, cache",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
-    },
-    {
+      "fact_id": "cd7c0b46-a7e9-4e2d-bd9e-60669f1fdb76",
       "key_term": "cycle",
       "fact_type": "tech",
       "value": "Fetch-decode-execute-writeback: the fundamental CPU instruction cycle",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
+      "source_title": "CPU - Wikipedia",
+      "source_id": "38b6f965-1d35-4579-97fb-2f0301308df9"
     },
     {
-      "key_term": "cycle",
-      "fact_type": "tech",
-      "value": "Fetch-decode-execute-writeback: the fundamental CPU instruction cycle",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
-    },
-    {
+      "fact_id": "25e87d00-b915-4a80-8db6-4203061b1dd7",
       "key_term": "definition",
       "fact_type": "tech",
       "value": "Low-level language with 1:1 correspondence between mnemonics and machine instructions",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
+      "source_title": "Assembly Language - Wikipedia",
+      "source_id": "1e2b09bc-628d-4633-b5a8-293b5d2f72ce"
     },
     {
-      "key_term": "definition",
-      "fact_type": "tech",
-      "value": "Low-level language with 1:1 correspondence between mnemonics and machine instructions",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
-    },
-    {
+      "fact_id": "5416645d-82f4-45ec-9d40-5d98c30314ec",
       "key_term": "instruction_set",
       "fact_type": "tech",
       "value": "The ISA defines opcodes, operand types, addressing modes, and register layout",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
+      "source_title": "CPU - Wikipedia",
+      "source_id": "38b6f965-1d35-4579-97fb-2f0301308df9"
     },
     {
-      "key_term": "instruction_set",
-      "fact_type": "tech",
-      "value": "The ISA defines opcodes, operand types, addressing modes, and register layout",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
-    },
-    {
+      "fact_id": "0614dec9-6b79-46bd-9894-46ae48dae47a",
       "key_term": "modern_features",
       "fact_type": "tech",
       "value": "Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
+      "source_title": "CPU - Wikipedia",
+      "source_id": "38b6f965-1d35-4579-97fb-2f0301308df9"
     },
     {
-      "key_term": "modern_features",
-      "fact_type": "tech",
-      "value": "Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Central_processing_unit",
-      "source_title": "CPU - Wikipedia"
-    },
-    {
+      "fact_id": "111b6048-4103-486c-b99b-ae0000ea14d1",
       "key_term": "use_cases",
       "fact_type": "tech",
       "value": "Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
-    },
-    {
-      "key_term": "use_cases",
-      "fact_type": "tech",
-      "value": "Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Assembly_language",
-      "source_title": "Assembly Language - Wikipedia"
+      "source_title": "Assembly Language - Wikipedia",
+      "source_id": "1e2b09bc-628d-4633-b5a8-293b5d2f72ce"
     }
-  ],
-  "subcategories": {
-    "CPU Architecture": 8,
-    "Low-Level Programming": 8
-  }
+  ]
 }

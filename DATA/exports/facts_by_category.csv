@@ -1,279 +1,140 @@
-category,fact_content,confidence,fact_type,key_term
-Data Serialization,"Binary, schema-free, self-describing, 0.7x size, 1.5x encode, 1.8x decode — pragmatic JSON upgrade",1,tech,messagepack
-Data Serialization,"Binary, schema-free, self-describing, 0.7x size, 1.5x encode, 1.8x decode — pragmatic JSON upgrade",1,tech,messagepack
-Data Serialization,"Text, human-readable, self-describing, universal tooling, verbose, no schema, baseline 1.0x",1,tech,json
-Data Serialization,"Schema-driven binary, 0.3x size, 3.0x encode, 4.0x decode, strong typing, schema evolution rules, gRPC standard",1,tech,protobuf
-Data Serialization,"Schema-driven binary, 0.25x size, schema in payload, schema evolution, Hadoop ecosystem, compact",1,tech,avro
-Data Serialization,Human readability vs compactness vs speed vs schema evolution vs ecosystem integration,1,tech,choice_factors
-Data Serialization,"IETF RFC 8949, binary, self-describing, native binary/date/tags, 0.7x size — IoT and standards track",1,tech,cbor
-Data Serialization,"Encodes same data model as JSON (objects, arrays, strings, numbers, bools, null), no native date type",1,tech,messagepack_limits
-Data Serialization,"Binary JSON, designed for in-memory manipulation, convenient binary type, used primarily by MongoDB, can be larger than JSON",1,tech,bson
-Data Serialization,"Superset of JSON — comments, multi-line strings, anchors/references, complex spec, potential parsing inconsistency between implementations",1,tech,yaml_features
-Data Serialization,"No native comments, no multi-line strings, limited data types (no binary, no date, no custom types)",1,tech,json_limits
-Data Serialization,"Text, human-readable, self-describing, universal tooling, verbose, no schema, baseline 1.0x",1,tech,json
-Data Serialization,"Encodes same data model as JSON (objects, arrays, strings, numbers, bools, null), no native date type",1,tech,messagepack_limits
-Data Serialization,"Binary JSON, designed for in-memory manipulation, convenient binary type, used primarily by MongoDB, can be larger than JSON",1,tech,bson
-Data Serialization,"Superset of JSON — comments, multi-line strings, anchors/references, complex spec, potential parsing inconsistency between implementations",1,tech,yaml_features
-Data Serialization,"No native comments, no multi-line strings, limited data types (no binary, no date, no custom types)",1,tech,json_limits
-Data Serialization,Human readability vs compactness vs speed vs schema evolution vs ecosystem integration,1,tech,choice_factors
-Data Serialization,"Schema-driven binary, 0.25x size, schema in payload, schema evolution, Hadoop ecosystem, compact",1,tech,avro
-Data Serialization,"Schema-driven binary, 0.3x size, 3.0x encode, 4.0x decode, strong typing, schema evolution rules, gRPC standard",1,tech,protobuf
-Data Serialization,"IETF RFC 8949, binary, self-describing, native binary/date/tags, 0.7x size — IoT and standards track",1,tech,cbor
-Error Correcting Codes,Syndrome (mismatch pattern) directly encodes the error position — modulo-2 arithmetic identifies the faulty bit,1,tech,syndrome_decoding
-Error Correcting Codes,"Non-binary cyclic error-correcting code over Galois field GF(2^m), works on symbols not bits",1,tech,definition
-Error Correcting Codes,Excels at burst error correction — single symbol error can represent multiple consecutive corrupted bits,1,tech,burst_error
-Error Correcting Codes,"RS(n, k): n total symbols, k data symbols, n-k parity symbols; corrects floor((n-k)/2) symbol errors",1,tech,parameters
-Error Correcting Codes,"Berlekamp-Massey algorithm (error locator), Forney algorithm (error magnitudes)",1,tech,decoding
-Error Correcting Codes,"Can recover lost symbols — used in RAID 6, distributed storage, Fountain codes (RS-based)",1,tech,erasure_coding
-Error Correcting Codes,"CD, DVD, Blu-ray, QR codes, DVB broadcast, satellite comms, RAID 6, Xerox PARC file system",1,product,applications
-Error Correcting Codes,"Parity bits at positions that are powers of 2 (1, 2, 4, 8, ...); each covers a specific subset of data bits",1,tech,parity_placement
-Error Correcting Codes,Shannon's theorem proves codes exist for any rate below channel capacity with arbitrarily low error — but finding them is hard,1,tech,shannon_limit
-Error Correcting Codes,"Extended Hamming: single error correction, double error detection — widely used in ECC memory",1,tech,seccd
-Error Correcting Codes,"ECC RAM (Error-Correcting Code memory) — standard in servers, workstations, and critical systems",1,product,application
-Error Correcting Codes,"Minimum bit flips between valid codewords; distance d detects d-1 errors, corrects floor((d-1)/2)",1,tech,hamming_distance
-Error Correcting Codes,"Parity (detection only), Hamming (single-error correction), Reed-Solomon (burst errors), BCH, LDPC, turbo codes",1,tech,types
-Error Correcting Codes,"Minimum bit flips between valid codewords; distance d detects d-1 errors, corrects floor((d-1)/2)",1,tech,hamming_distance
-Error Correcting Codes,"Parity (detection only), Hamming (single-error correction), Reed-Solomon (burst errors), BCH, LDPC, turbo codes",1,tech,types
-Error Correcting Codes,"RAM (ECC memory), disk drives, CD/DVD, QR codes, satellite communication, Wi-Fi, 4G/5G, deep space communication",1,tech,applications
-Error Correcting Codes,Forward Error Correction — receiver corrects errors without retransmission; essential for one-way or high-latency channels,1,tech,fec
-Error Correcting Codes,Shannon's theorem proves codes exist for any rate below channel capacity with arbitrarily low error — but finding them is hard,1,tech,shannon_limit
-Error Correcting Codes,"Non-binary cyclic error-correcting code over Galois field GF(2^m), works on symbols not bits",1,tech,definition
-Error Correcting Codes,Excels at burst error correction — single symbol error can represent multiple consecutive corrupted bits,1,tech,burst_error
-Error Correcting Codes,"RS(n, k): n total symbols, k data symbols, n-k parity symbols; corrects floor((n-k)/2) symbol errors",1,tech,parameters
-Error Correcting Codes,"Berlekamp-Massey algorithm (error locator), Forney algorithm (error magnitudes)",1,tech,decoding
-Error Correcting Codes,"Can recover lost symbols — used in RAID 6, distributed storage, Fountain codes (RS-based)",1,tech,erasure_coding
-Error Correcting Codes,"CD, DVD, Blu-ray, QR codes, DVB broadcast, satellite comms, RAID 6, Xerox PARC file system",1,product,applications
-Error Correcting Codes,"Parity bits at positions that are powers of 2 (1, 2, 4, 8, ...); each covers a specific subset of data bits",1,tech,parity_placement
-Error Correcting Codes,Syndrome (mismatch pattern) directly encodes the error position — modulo-2 arithmetic identifies the faulty bit,1,tech,syndrome_decoding
-Error Correcting Codes,"Extended Hamming: single error correction, double error detection — widely used in ECC memory",1,tech,seccd
-Error Correcting Codes,"ECC RAM (Error-Correcting Code memory) — standard in servers, workstations, and critical systems",1,product,application
-Error Correcting Codes,"RAM (ECC memory), disk drives, CD/DVD, QR codes, satellite communication, Wi-Fi, 4G/5G, deep space communication",1,tech,applications
-Error Correcting Codes,Forward Error Correction — receiver corrects errors without retransmission; essential for one-way or high-latency channels,1,tech,fec
-Family & Kinship,5.5 most widely supported; 5.5.1 proposed; 7.0 released 2021 with JSON support,1,tech,version
-Family & Kinship,"No standard way to represent complex relationships (civil unions, non-traditional families), limited semantic expressiveness",1,tech,limitation
-Family & Kinship,"Consanguineal (blood), affine (marriage), fictive (social/bond) — three fundamental categories",1,tech,relationship_types
-Family & Kinship,"Eskimo, Hawaiian, Iroquois, Omaha, Sudan — cultural classification systems for relatives",1,tech,kinship_systems
-Family & Kinship,"Grandparents, aunts/uncles, cousins, in-laws, step-relations, adopted relations",1,tech,extended_family
-Family & Kinship,"Person (name, dates, places, gender), Relationship (parent-child, spouse), Event (birth, marriage, death), Source",1,tech,core_entities
-Family & Kinship,GEDCOM (Genealogical Data Communication) — standard interchange format for family tree data,1,tech,data_format
-Family & Kinship,Hierarchical tagged text format with cross-reference IDs and indented levels,1,tech,format
-Family & Kinship,"INDI (individual), FAM (family), SOUR (source), REPO (repository), HEAD (header), SUBM (submitter)",1,tech,records
-Family & Kinship,5.5 most widely supported; 5.5.1 proposed; 7.0 released 2021 with JSON support,1,tech,version
-Family & Kinship,"No standard way to represent complex relationships (civil unions, non-traditional families), limited semantic expressiveness",1,tech,limitation
-Family & Kinship,"Consanguineal (blood), affine (marriage), fictive (social/bond) — three fundamental categories",1,tech,relationship_types
-Family & Kinship,"Eskimo (nuclear family focus), Hawaiian (generational), Iroquois (lineal vs collateral distinction), Omaha (patrilineal), Sudanic",1,tech,terminology_systems
-Family & Kinship,Kinship terminology complexity — cultural variation in how relatives are classified and named — is underexplored in computational models,1,research_gap,gap
-Family & Kinship,"Eskimo (nuclear family focus), Hawaiian (generational), Iroquois (lineal vs collateral distinction), Omaha (patrilineal), Sudanic",1,tech,terminology_systems
-Family & Kinship,Kinship terminology complexity — cultural variation in how relatives are classified and named — is underexplored in computational models,1,research_gap,gap
-Family & Kinship,"Person (name, dates, places, gender), Relationship (parent-child, spouse), Event (birth, marriage, death), Source",1,tech,core_entities
-Family & Kinship,"Grandparents, aunts/uncles, cousins, in-laws, step-relations, adopted relations",1,tech,extended_family
-Family & Kinship,"Eskimo, Hawaiian, Iroquois, Omaha, Sudan — cultural classification systems for relatives",1,tech,kinship_systems
-Family & Kinship,GEDCOM (Genealogical Data Communication) — standard interchange format for family tree data,1,tech,data_format
-Family & Kinship,Hierarchical tagged text format with cross-reference IDs and indented levels,1,tech,format
-Family & Kinship,"INDI (individual), FAM (family), SOUR (source), REPO (repository), HEAD (header), SUBM (submitter)",1,tech,records
-Graph-Native Programming,"Data-flow graph, program dependence graph, call graph",1,tech,related_concepts
-Graph-Native Programming,"Compiler optimization, static analysis, program slicing, debugging",1,tech,use_cases
-Graph-Native Programming,Directed graph where nodes are basic blocks and edges are control flow transfers,1,tech,definition
-Graph-Native Programming,No general-purpose visual-first language for graph-native software engineering exists,1,research_gap,gap
-Graph-Native Programming,Most VPLs are domain-specific; few are general-purpose for software engineering,1,tech,limitation
-Graph-Native Programming,"Visual/spatial programming — code expressed as diagrams, blocks, or graphs",1,tech,paradigm
-Graph-Native Programming,"Dataflow, form-based, icon-based, graph-based, sketch-based",1,tech,types
-Graph-Native Programming,"Scratch, LabVIEW, Simulink, Unreal Blueprints, Unity Visual Scripting, Node-RED, Max/MSP",1,product,examples
-Graph-Native Programming,"Visual/spatial programming — code expressed as diagrams, blocks, or graphs",1,tech,paradigm
-Graph-Native Programming,"Dataflow, form-based, icon-based, graph-based, sketch-based",1,tech,types
-Graph-Native Programming,"Scratch, LabVIEW, Simulink, Unreal Blueprints, Unity Visual Scripting, Node-RED, Max/MSP",1,product,examples
-Graph-Native Programming,Most VPLs are domain-specific; few are general-purpose for software engineering,1,tech,limitation
-Graph-Native Programming,No general-purpose visual-first language for graph-native software engineering exists,1,research_gap,gap
-Graph-Native Programming,Directed graph where nodes are basic blocks and edges are control flow transfers,1,tech,definition
-Graph-Native Programming,"Compiler optimization, static analysis, program slicing, debugging",1,tech,use_cases
-Graph-Native Programming,"Data-flow graph, program dependence graph, call graph",1,tech,related_concepts
-Graph-Native Programming,Graph rewrite rules: pattern (LHS) matched and replaced with (RHS),1,tech,formalism
-Graph-Native Programming,"Double-pushout (DPO), single-pushout (SPO), algebraic approach via category theory",1,tech,approaches
-Graph-Native Programming,Church-Rosser property ensures same result regardless of rule application order — essential for parallel execution,1,tech,confluence
-Graph-Native Programming,"GP2, AGG, ReWrite, graph transformation tools",1,product,systems
-Graph-Native Programming,Graph rewriting systems exist but are not integrated into mainstream general-purpose programming as a visual-first paradigm,1,research_gap,gap
-Graph-Native Programming,Graph rewriting systems exist but are not integrated into mainstream general-purpose programming as a visual-first paradigm,1,research_gap,gap
-Graph-Native Programming,"GP2, AGG, ReWrite, graph transformation tools",1,product,systems
-Graph-Native Programming,Church-Rosser property ensures same result regardless of rule application order — essential for parallel execution,1,tech,confluence
-Graph-Native Programming,"Double-pushout (DPO), single-pushout (SPO), algebraic approach via category theory",1,tech,approaches
-Graph-Native Programming,Graph rewrite rules: pattern (LHS) matched and replaced with (RHS),1,tech,formalism
-Hardware Reverse Engineering,Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise,1,tech,cost
-Hardware Reverse Engineering,SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview,1,tech,imaging
-Hardware Reverse Engineering,"Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation — each with trade-offs in damage and resolution",1,tech,decapsulation_methods
-Hardware Reverse Engineering,Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis,1,tech,pipeline
-Hardware Reverse Engineering,"Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction — expensive and specialized",1,tech,software_tools
-Hardware Reverse Engineering,"Older chips (larger geometries, fewer gates) are more feasible for full IC RE — relevant for attic/basement hardware revival",1,tech,legacy_hardware
-Hardware Reverse Engineering,"Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation — each with trade-offs in damage and resolution",1,tech,decapsulation_methods
-Hardware Reverse Engineering,Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis,1,tech,pipeline
-Hardware Reverse Engineering,Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise,1,tech,cost
-Hardware Reverse Engineering,"Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",1,tech,standard_cell_recognition
-Hardware Reverse Engineering,"Heat gun (~800F) then break epoxy — simple, destructive, die visible for forensic ID but not circuit analysis",1,tech,heat_force
-Hardware Reverse Engineering,"Sandpaper/grind bottom of chip — keeps chip potentially functional, no acid, luck-dependent results",1,tech,grinding
-Hardware Reverse Engineering,"Fuming nitric + sulfuric acid — gold standard, precise, but extremely dangerous and requires lab setup",1,tech,acid
-Hardware Reverse Engineering,1064nm light source + camera system for seeing into chips from the bottom side — used for fault injection and side-channel analysis,1,tech,rayv_lite
-Hardware Reverse Engineering,"No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction — the barrier to hardware RE is high",1,research_gap,gap
-Hardware Reverse Engineering,"Non-destructive: photograph, trace, identify components, reconstruct schematic — feasible with modest equipment",1,tech,pcb_re
-Hardware Reverse Engineering,"Destructive: decapsulate, delayered, image, extract netlist — expensive, expert-intensive, chip is destroyed",1,tech,ic_re
-Hardware Reverse Engineering,SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview,1,tech,imaging
-Hardware Reverse Engineering,"Older chips (larger geometries, fewer gates) are more feasible for full IC RE — relevant for attic/basement hardware revival",1,tech,legacy_hardware
-Hardware Reverse Engineering,"Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction — expensive and specialized",1,tech,software_tools
-Hardware Reverse Engineering,"Destructive: decapsulate, delayered, image, extract netlist — expensive, expert-intensive, chip is destroyed",1,tech,ic_re
-Hardware Reverse Engineering,"Non-destructive: photograph, trace, identify components, reconstruct schematic — feasible with modest equipment",1,tech,pcb_re
-Hardware Reverse Engineering,"No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction — the barrier to hardware RE is high",1,research_gap,gap
-Hardware Reverse Engineering,1064nm light source + camera system for seeing into chips from the bottom side — used for fault injection and side-channel analysis,1,tech,rayv_lite
-Hardware Reverse Engineering,"Fuming nitric + sulfuric acid — gold standard, precise, but extremely dangerous and requires lab setup",1,tech,acid
-Hardware Reverse Engineering,"Sandpaper/grind bottom of chip — keeps chip potentially functional, no acid, luck-dependent results",1,tech,grinding
-Hardware Reverse Engineering,"Heat gun (~800F) then break epoxy — simple, destructive, die visible for forensic ID but not circuit analysis",1,tech,heat_force
-Hardware Reverse Engineering,"Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",1,tech,standard_cell_recognition
-Information Theory,Theorem proves codes EXIST below capacity but doesn't construct them — finding practical near-capacity codes was a decades-long effort,1,tech,non_constructive
-Information Theory,"LDPC codes and turbo codes approach the Shannon limit within fractions of a dB — used in 4G, 5G, Wi-Fi, DVB-S2",1,tech,practical_codes
-Information Theory,H = -Σ pi log2 pi — average information per symbol; also the theoretical minimum compression limit (source coding theorem),1,tech,entropy
-Information Theory,"Shannon formally introduced the 'bit' as a unit of information (binary digit, credited to John Tukey)",1,tech,bit_definition
-Information Theory,Source -> Transmitter (encoder) -> Channel (possibly noisy) -> Receiver (decoder) -> Destination,1,tech,communication_model
-Information Theory,Adding redundancy enables error correction — the trade-off between data rate and reliability,1,tech,redundancy
-Information Theory,Called 'Magna Carta of the Information Age' — founded the mathematical discipline of information theory,1,tech,impact
-Information Theory,"For any discrete memoryless channel with capacity C: reliable communication is possible at any rate R < C, impossible at R > C",1,tech,theorem
-Information Theory,C = max I(X;Y) — maximum mutual information between channel input and output over all input distributions,1,tech,capacity_definition
-Information Theory,Achievability via random coding + typical set decoding; converse via Fano's inequality bounding error from below,1,tech,proof_approach
-Information Theory,Theorem proves codes EXIST below capacity but doesn't construct them — finding practical near-capacity codes was a decades-long effort,1,tech,non_constructive
-Information Theory,For bandlimited AWGN channel: C = W * log2(1 + S/N) — capacity depends on bandwidth W and signal-to-noise ratio,1,tech,shannon_hartley
-Information Theory,"LDPC codes and turbo codes approach the Shannon limit within fractions of a dB — used in 4G, 5G, Wi-Fi, DVB-S2",1,tech,practical_codes
-Information Theory,H = -Σ pi log2 pi — average information per symbol; also the theoretical minimum compression limit (source coding theorem),1,tech,entropy
-Information Theory,"Shannon formally introduced the 'bit' as a unit of information (binary digit, credited to John Tukey)",1,tech,bit_definition
-Information Theory,Source -> Transmitter (encoder) -> Channel (possibly noisy) -> Receiver (decoder) -> Destination,1,tech,communication_model
-Information Theory,Adding redundancy enables error correction — the trade-off between data rate and reliability,1,tech,redundancy
-Information Theory,Called 'Magna Carta of the Information Age' — founded the mathematical discipline of information theory,1,tech,impact
-Information Theory,"For any discrete memoryless channel with capacity C: reliable communication is possible at any rate R < C, impossible at R > C",1,tech,theorem
-Information Theory,C = max I(X;Y) — maximum mutual information between channel input and output over all input distributions,1,tech,capacity_definition
-Information Theory,Achievability via random coding + typical set decoding; converse via Fano's inequality bounding error from below,1,tech,proof_approach
-Information Theory,For bandlimited AWGN channel: C = W * log2(1 + S/N) — capacity depends on bandwidth W and signal-to-noise ratio,1,tech,shannon_hartley
-Machine-Level Computing,"Direct hardware access — registers, memory, stack, CPU flags — no runtime abstractions",1,tech,abstraction_level
-Machine-Level Computing,Fetch-decode-execute-writeback: the fundamental CPU instruction cycle,1,tech,cycle
-Machine-Level Computing,"ALU (arithmetic/logic), control unit, registers, program counter, cache",1,tech,components
-Machine-Level Computing,"Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",1,tech,modern_features
-Machine-Level Computing,"The ISA defines opcodes, operand types, addressing modes, and register layout",1,tech,instruction_set
-Machine-Level Computing,Low-level language with 1:1 correspondence between mnemonics and machine instructions,1,tech,definition
-Machine-Level Computing,"Architecture-specific — x86, ARM, RISC-V, MIPS each have different assembly",1,tech,characteristic
-Machine-Level Computing,"Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",1,tech,use_cases
-Machine-Level Computing,Fetch-decode-execute-writeback: the fundamental CPU instruction cycle,1,tech,cycle
-Machine-Level Computing,"ALU (arithmetic/logic), control unit, registers, program counter, cache",1,tech,components
-Machine-Level Computing,"Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",1,tech,modern_features
-Machine-Level Computing,"The ISA defines opcodes, operand types, addressing modes, and register layout",1,tech,instruction_set
-Machine-Level Computing,Low-level language with 1:1 correspondence between mnemonics and machine instructions,1,tech,definition
-Machine-Level Computing,"Architecture-specific — x86, ARM, RISC-V, MIPS each have different assembly",1,tech,characteristic
-Machine-Level Computing,"Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",1,tech,use_cases
-Machine-Level Computing,"Direct hardware access — registers, memory, stack, CPU flags — no runtime abstractions",1,tech,abstraction_level
-Neo4j,Native graph storage with index-free adjacency,1,tech,storage
-Neo4j,"GPLv3 (community), commercial (enterprise)",1,product,license
-Neo4j,"Custom binary format, fixed-size records, direct pointers for adjacency",1,tech,storage_engine
-Neo4j,ACID compliant,1,tech,transactions
-Neo4j,Nodes point directly to adjacent nodes — O(1) per hop traversal,1,tech,index_free_adjacency
-Neo4j,Memory-mapped file access with page cache management,1,tech,page_cache
-Neo4j,Write-ahead log for transaction durability,1,tech,wal
-Neo4j,Lock-based concurrency control with deadlocks detection,1,tech,transaction_lock
-Neo4j,Native graph database management system,1,product,type
-Neo4j,"Cypher (declarative, SQL-like for graphs)",1,tech,query_language
-Neo4j,Native graph storage with index-free adjacency,1,tech,storage
-Neo4j,"Cypher (declarative, SQL-like for graphs)",1,tech,query_language
-Neo4j,"Property graph — nodes, relationships, properties",1,tech,data_model
-Neo4j,ACID compliant,1,tech,transactions
-Neo4j,"Java, runs on JVM",1,tech,implementation
-Neo4j,Enterprise graph database with community edition,1,product,type
-Neo4j,"GPLv3 (community), commercial (enterprise)",1,product,license
-Neo4j,"Custom binary format, fixed-size records, direct pointers for adjacency",1,tech,storage_engine
-Neo4j,Nodes point directly to adjacent nodes — O(1) per hop traversal,1,tech,index_free_adjacency
-Neo4j,Memory-mapped file access with page cache management,1,tech,page_cache
-Neo4j,Write-ahead log for transaction durability,1,tech,wal
-Neo4j,Lock-based concurrency control with deadlocks detection,1,tech,transaction_lock
-Neo4j,Neo4j,1,product,name
-Neo4j,Native graph database management system,1,product,type
-Neo4j,Neo4j,1,product,name
-Neo4j,"Property graph — nodes, relationships, properties",1,tech,data_model
-Neo4j,"Java, runs on JVM",1,tech,implementation
-Neo4j,Enterprise graph database with community edition,1,product,type
-Open-Source Drivers,"TTM (Translation Table Manager) — older buffer/_memory manager; GEM (Graphics Execution Manager) — newer, simpler, used by Intel and AMD",1,tech,ttm_vs_gem
-Open-Source Drivers,"Kernel DRM provides buffer management, synchronization, device access control, and userspace ioctl API",1,tech,drm_subsystem
-Open-Source Drivers,"Proprietary drivers taint kernel, break with kernel updates, can't use GPL-only APIs, hard to debug — Linus Torvalds refuses to consider binary modules",1,tech,binary_blob_problem
-Open-Source Drivers,"Atomic modesetting + DMA-BUF required for Wayland — open drivers had these early, proprietary drivers lagged",1,tech,wayland_requirement
-Open-Source Drivers,May 2022: NVIDIA open-sourced Linux kernel modules (GPL/MIT) but kept user-space closed — a partial opening,1,tech,nvidia_open_kernel
-Open-Source Drivers,AMD releases GPU documentation without NDA — allows fully open-source drivers without reverse engineering,1,tech,amd_documentation
-Open-Source Drivers,"radeonsi (AMD GCN+), iris (Intel), nouveau (NVIDIA), freedreno (Qualcomm Adreno), panfrost (Mali)",1,tech,mesa_drivers
-Open-Source Drivers,"Kernel DRM driver (hardware, memory, security) -> Mesa (OpenGL/Vulkan userspace) -> Application",1,tech,stack_layers
-Open-Source Drivers,DMA-BUF framework allows buffer sharing between kernel drivers and userspace — essential for zero-copy pipeline,1,tech,dma_buf
-Open-Source Drivers,Atomic modesetting API allows multiple display state changes in a single transaction — required for modern display management,1,tech,atomic_modesetting
-Open-Source Drivers,"Kernel DRM driver (hardware, memory, security) -> Mesa (OpenGL/Vulkan userspace) -> Application",1,tech,stack_layers
-Open-Source Drivers,"radeonsi (AMD GCN+), iris (Intel), nouveau (NVIDIA), freedreno (Qualcomm Adreno), panfrost (Mali)",1,tech,mesa_drivers
-Open-Source Drivers,AMD releases GPU documentation without NDA — allows fully open-source drivers without reverse engineering,1,tech,amd_documentation
-Open-Source Drivers,May 2022: NVIDIA open-sourced Linux kernel modules (GPL/MIT) but kept user-space closed — a partial opening,1,tech,nvidia_open_kernel
-Open-Source Drivers,"Atomic modesetting + DMA-BUF required for Wayland — open drivers had these early, proprietary drivers lagged",1,tech,wayland_requirement
-Open-Source Drivers,"Proprietary drivers taint kernel, break with kernel updates, can't use GPL-only APIs, hard to debug — Linus Torvalds refuses to consider binary modules",1,tech,binary_blob_problem
-Open-Source Drivers,"Kernel DRM provides buffer management, synchronization, device access control, and userspace ioctl API",1,tech,drm_subsystem
-Open-Source Drivers,"TTM (Translation Table Manager) — older buffer/_memory manager; GEM (Graphics Execution Manager) — newer, simpler, used by Intel and AMD",1,tech,ttm_vs_gem
-Open-Source Drivers,DMA-BUF framework allows buffer sharing between kernel drivers and userspace — essential for zero-copy pipeline,1,tech,dma_buf
-Open-Source Drivers,Atomic modesetting API allows multiple display state changes in a single transaction — required for modern display management,1,tech,atomic_modesetting
-Programming Paradigms,Paradigm concept from Floyd's 1978 Turing Award lecture; structured programming from mid-1960s as reaction to spaghetti code/goto,1,tech,history
-Programming Paradigms,"Multiple threads — actor model, CSP, dataflow, synchronous, process-oriented; sub-paradigm: reactive (data streams + change propagation)",1,tech,concurrent
-Programming Paradigms,"Most modern languages support multiple paradigms — C++, Python, JavaScript, Scala, Rust, Swift",1,tech,multi_paradigm
-Programming Paradigms,Paradigm concept from Floyd's 1978 Turing Award lecture; structured programming from mid-1960s as reaction to spaghetti code/goto,1,tech,history
-Programming Paradigms,"Machine/assembly (1950s) -> Procedural high-level (1950s-60s: FORTRAN, COBOL, ALGOL, C) -> OOP (1960s-70s: Simula, Smalltalk) -> Functional (1958+: Lisp, ML, Haskell) -> Logic (1970s: Prolog) -> Structured (1960s: reaction to goto)",1,tech,timeline
-Programming Paradigms,"FORTRAN/COBOL/ALGOL/C introduced: portability via compilers, abstraction from hardware, procedure/function decomposition, type systems",1,tech,procedural_contribution
-Programming Paradigms,"Simula: first classes/objects; Smalltalk: pure OOP, everything is an object, MVC pattern, GUI integration; C++/Java: OOP mainstreamed",1,tech,oop_contribution
-Programming Paradigms,"Lisp: lambda calculus, first-class functions, garbage collection, homoiconicity (code as data); ML: static typing + inference; Haskell: purity, laziness, monads",1,tech,functional_contribution
-Programming Paradigms,"Dijkstra's 'Goto Considered Harmful' (1968) — replaced goto with structured control flow (if/then/else, while, for), improved readability and correctness reasoning",1,tech,structured_contribution
-Programming Paradigms,"Dijkstra's 'Goto Considered Harmful' (1968) — replaced goto with structured control flow (if/then/else, while, for), improved readability and correctness reasoning",1,tech,structured_contribution
-Programming Paradigms,"Lisp: lambda calculus, first-class functions, garbage collection, homoiconicity (code as data); ML: static typing + inference; Haskell: purity, laziness, monads",1,tech,functional_contribution
-Programming Paradigms,"Simula: first classes/objects; Smalltalk: pure OOP, everything is an object, MVC pattern, GUI integration; C++/Java: OOP mainstreamed",1,tech,oop_contribution
-Programming Paradigms,"FORTRAN/COBOL/ALGOL/C introduced: portability via compilers, abstraction from hardware, procedure/function decomposition, type systems",1,tech,procedural_contribution
-Programming Paradigms,"Machine/assembly (1950s) -> Procedural high-level (1950s-60s: FORTRAN, COBOL, ALGOL, C) -> OOP (1960s-70s: Simula, Smalltalk) -> Functional (1958+: Lisp, ML, Haskell) -> Logic (1970s: Prolog) -> Structured (1960s: reaction to goto)",1,tech,timeline
-Programming Paradigms,"Most modern languages support multiple paradigms — C++, Python, JavaScript, Scala, Rust, Swift",1,tech,multi_paradigm
-Programming Paradigms,"Multiple threads — actor model, CSP, dataflow, synchronous, process-oriented; sub-paradigm: reactive (data streams + change propagation)",1,tech,concurrent
-Programming Paradigms,"Objects with state + behavior, encapsulation, inheritance, polymorphism — Simula, Smalltalk, Java, C++; class-based vs prototype-based",1,tech,oop
-Programming Paradigms,"Facts + rules + automated reasoning — Prolog, Datalog; computation as inference over knowledge base",1,tech,logic
-Programming Paradigms,"Mathematical function evaluation, immutability, no side effects — Haskell, Lisp, ML; pure vs impure (allows side effects)",1,tech,functional
-Programming Paradigms,"Describe what, not how — SQL, HTML, functional, logic; sub-paradigms: functional, logic, query",1,tech,declarative
-Programming Paradigms,"Explicit step-by-step state changes — C, Pascal, FORTRAN, BASIC; sub-paradigms: procedural, structured, modular",1,tech,imperative
-Programming Paradigms,"Explicit step-by-step state changes — C, Pascal, FORTRAN, BASIC; sub-paradigms: procedural, structured, modular",1,tech,imperative
-Programming Paradigms,"Describe what, not how — SQL, HTML, functional, logic; sub-paradigms: functional, logic, query",1,tech,declarative
-Programming Paradigms,"Mathematical function evaluation, immutability, no side effects — Haskell, Lisp, ML; pure vs impure (allows side effects)",1,tech,functional
-Programming Paradigms,"Facts + rules + automated reasoning — Prolog, Datalog; computation as inference over knowledge base",1,tech,logic
-Programming Paradigms,"Objects with state + behavior, encapsulation, inheritance, polymorphism — Simula, Smalltalk, Java, C++; class-based vs prototype-based",1,tech,oop
-Software Engineering at Machine Level,"Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",1,tech,techniques
-Software Engineering at Machine Level,"Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",1,tech,tools
-Software Engineering at Machine Level,"Memory leaks, dangling pointers, buffer overflows, use-after-free — all rooted in manual memory management",1,tech,common_bugs
-Software Engineering at Machine Level,"Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",1,tech,gc_vs_manual
-Software Engineering at Machine Level,"Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",1,tech,gc_vs_manual
-Software Engineering at Machine Level,MMU translates virtual to physical addresses via page tables; each process gets its own address space,1,tech,virtual_memory
-Software Engineering at Machine Level,Understanding how arguments and return values pass between functions is foundational,1,tech,calling_conventions
-Software Engineering at Machine Level,"No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",1,tech,challenges
-Software Engineering at Machine Level,"Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",1,tech,techniques
-Software Engineering at Machine Level,"Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",1,tech,tools
-Software Engineering at Machine Level,"Memory leaks, dangling pointers, buffer overflows, use-after-free — all rooted in manual memory management",1,tech,common_bugs
-Software Engineering at Machine Level,Hardware registers mapped into address space — programs interact with devices via memory reads/writes,1,tech,memory_mapped_io
-Software Engineering at Machine Level,"Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",1,tech,stack_vs_heap
-Software Engineering at Machine Level,Hardware registers mapped into address space — programs interact with devices via memory reads/writes,1,tech,memory_mapped_io
-Software Engineering at Machine Level,"Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",1,tech,stack_vs_heap
-Software Engineering at Machine Level,MMU translates virtual to physical addresses via page tables; each process gets its own address space,1,tech,virtual_memory
-Software Engineering at Machine Level,Understanding how arguments and return values pass between functions is foundational,1,tech,calling_conventions
-Software Engineering at Machine Level,"No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",1,tech,challenges
-WebAssembly,Lock-free atomic operators for 8/16/32-bit required (and 64-bit for wasm64) — enables threads and shared memory,1,tech,atomic_ops
-WebAssembly,WebAssembly is a virtual instruction set architecture — not tied to specific hardware but maps to all modern architectures,1,tech,virtual_isa
-WebAssembly,"Fast (near-native), safe (sandboxed, memory-safe), well-defined (formal semantics), HW-independent, language-independent, platform-independent",1,tech,design_goals
-WebAssembly,"Compact, modular, efficient single-pass decode/validate/compile, streamable, parallelizable",1,tech,binary_format
-WebAssembly,No ambient access — all I/O through imports; sandboxed execution; CFI via structured control flow; protected call stack,1,tech,security_model
-WebAssembly,"Human-readable text format (WAT) for debugging, teaching, hand-written modules — 1:1 correspondence with binary",1,tech,text_format
-WebAssembly,"Web (high-performance apps in browser), server-side (edge compute, serverless), embedded, language runtime targeting, plugin systems",1,tech,use_cases
-WebAssembly,"WebAssembly doesn't make Web-specific assumptions — designed for non-web embeddings (server, edge, embedded) from the start",1,tech,non_web
-WebAssembly,"8-bit bytes, byte-addressable, two's complement 32-bit ints, IEEE 754 float, little-endian, 32-bit pointers",1,tech,portability_requirements
-WebAssembly,Extension for linear memory >4GB using 64-bit pointers/indices,1,tech,wasm64
-WebAssembly,"8-bit bytes, byte-addressable, two's complement 32-bit ints, IEEE 754 float, little-endian, 32-bit pointers",1,tech,portability_requirements
-WebAssembly,Extension for linear memory >4GB using 64-bit pointers/indices,1,tech,wasm64
-WebAssembly,"No ambient access — I/O, syscalls only through imports provided by the embedder; module cannot escape sandbox",1,tech,sandbox
-WebAssembly,Lock-free atomic operators for 8/16/32-bit required (and 64-bit for wasm64) — enables threads and shared memory,1,tech,atomic_ops
-WebAssembly,WebAssembly is a virtual instruction set architecture — not tied to specific hardware but maps to all modern architectures,1,tech,virtual_isa
-WebAssembly,"Fast (near-native), safe (sandboxed, memory-safe), well-defined (formal semantics), HW-independent, language-independent, platform-independent",1,tech,design_goals
-WebAssembly,"Compact, modular, efficient single-pass decode/validate/compile, streamable, parallelizable",1,tech,binary_format
-WebAssembly,No ambient access — all I/O through imports; sandboxed execution; CFI via structured control flow; protected call stack,1,tech,security_model
-WebAssembly,"Human-readable text format (WAT) for debugging, teaching, hand-written modules — 1:1 correspondence with binary",1,tech,text_format
-WebAssembly,"Web (high-performance apps in browser), server-side (edge compute, serverless), embedded, language runtime targeting, plugin systems",1,tech,use_cases
-WebAssembly,"WebAssembly doesn't make Web-specific assumptions — designed for non-web embeddings (server, edge, embedded) from the start",1,tech,non_web
-WebAssembly,"No ambient access — I/O, syscalls only through imports provided by the embedder; module cannot escape sandbox",1,tech,sandbox
+category,key_term,fact_type,value,confidence,source_url,source_title
+Data Serialization,avro,tech,"Schema-driven binary, 0.25x size, schema in payload, schema evolution, Hadoop ecosystem, compact",1.0,https://codelit.io/blog/data-serialization-formats,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit
+Data Serialization,bson,tech,"Binary JSON, designed for in-memory manipulation, convenient binary type, used primarily by MongoDB, can be larger than JSON",1.0,https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack,"Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+Data Serialization,cbor,tech,"IETF RFC 8949, binary, self-describing, native binary/date/tags, 0.7x size — IoT and standards track",1.0,https://codelit.io/blog/data-serialization-formats,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit
+Data Serialization,choice_factors,tech,Human readability vs compactness vs speed vs schema evolution vs ecosystem integration,1.0,https://codelit.io/blog/data-serialization-formats,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit
+Data Serialization,json,tech,"Text, human-readable, self-describing, universal tooling, verbose, no schema, baseline 1.0x",1.0,https://codelit.io/blog/data-serialization-formats,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit
+Data Serialization,json_limits,tech,"No native comments, no multi-line strings, limited data types (no binary, no date, no custom types)",1.0,https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack,"Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+Data Serialization,messagepack,tech,"Binary, schema-free, self-describing, 0.7x size, 1.5x encode, 1.8x decode — pragmatic JSON upgrade",1.0,https://codelit.io/blog/data-serialization-formats,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit
+Data Serialization,messagepack_limits,tech,"Encodes same data model as JSON (objects, arrays, strings, numbers, bools, null), no native date type",1.0,https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack,"Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+Data Serialization,protobuf,tech,"Schema-driven binary, 0.3x size, 3.0x encode, 4.0x decode, strong typing, schema evolution rules, gRPC standard",1.0,https://codelit.io/blog/data-serialization-formats,Data Serialization Formats: JSON vs Protobuf vs Avro vs MessagePack vs CBOR - Codelit
+Data Serialization,yaml_features,tech,"Superset of JSON — comments, multi-line strings, anchors/references, complex spec, potential parsing inconsistency between implementations",1.0,https://www.sitepoint.com/data-serialization-comparison-json-yaml-bson-messagepack,"Data Serialization Comparison: JSON, YAML, BSON, MessagePack - SitePoint"
+Error Correcting Codes,application,product,"ECC RAM (Error-Correcting Code memory) — standard in servers, workstations, and critical systems",1.0,https://en.wikipedia.org/wiki/Hamming_code,Hamming Code - Wikipedia
+Error Correcting Codes,applications,tech,"RAM (ECC memory), disk drives, CD/DVD, QR codes, satellite communication, Wi-Fi, 4G/5G, deep space communication",1.0,https://en.wikipedia.org/wiki/Error_correction_code,Error Correction Code - Wikipedia
+Error Correcting Codes,applications,product,"CD, DVD, Blu-ray, QR codes, DVB broadcast, satellite comms, RAID 6, Xerox PARC file system",1.0,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Reed-Solomon Error Correction - Wikipedia
+Error Correcting Codes,burst_error,tech,Excels at burst error correction — single symbol error can represent multiple consecutive corrupted bits,1.0,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Reed-Solomon Error Correction - Wikipedia
+Error Correcting Codes,decoding,tech,"Berlekamp-Massey algorithm (error locator), Forney algorithm (error magnitudes)",1.0,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Reed-Solomon Error Correction - Wikipedia
+Error Correcting Codes,definition,tech,"Non-binary cyclic error-correcting code over Galois field GF(2^m), works on symbols not bits",1.0,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Reed-Solomon Error Correction - Wikipedia
+Error Correcting Codes,erasure_coding,tech,"Can recover lost symbols — used in RAID 6, distributed storage, Fountain codes (RS-based)",1.0,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Reed-Solomon Error Correction - Wikipedia
+Error Correcting Codes,fec,tech,Forward Error Correction — receiver corrects errors without retransmission; essential for one-way or high-latency channels,1.0,https://en.wikipedia.org/wiki/Error_correction_code,Error Correction Code - Wikipedia
+Error Correcting Codes,hamming_distance,tech,"Minimum bit flips between valid codewords; distance d detects d-1 errors, corrects floor((d-1)/2)",1.0,https://en.wikipedia.org/wiki/Error_correction_code,Error Correction Code - Wikipedia
+Error Correcting Codes,parameters,tech,"RS(n, k): n total symbols, k data symbols, n-k parity symbols; corrects floor((n-k)/2) symbol errors",1.0,https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction,Reed-Solomon Error Correction - Wikipedia
+Error Correcting Codes,parity_placement,tech,"Parity bits at positions that are powers of 2 (1, 2, 4, 8, ...); each covers a specific subset of data bits",1.0,https://en.wikipedia.org/wiki/Hamming_code,Hamming Code - Wikipedia
+Error Correcting Codes,seccd,tech,"Extended Hamming: single error correction, double error detection — widely used in ECC memory",1.0,https://en.wikipedia.org/wiki/Hamming_code,Hamming Code - Wikipedia
+Error Correcting Codes,shannon_limit,tech,Shannon's theorem proves codes exist for any rate below channel capacity with arbitrarily low error — but finding them is hard,1.0,https://en.wikipedia.org/wiki/Error_correction_code,Error Correction Code - Wikipedia
+Error Correcting Codes,syndrome_decoding,tech,Syndrome (mismatch pattern) directly encodes the error position — modulo-2 arithmetic identifies the faulty bit,1.0,https://en.wikipedia.org/wiki/Hamming_code,Hamming Code - Wikipedia
+Error Correcting Codes,types,tech,"Parity (detection only), Hamming (single-error correction), Reed-Solomon (burst errors), BCH, LDPC, turbo codes",1.0,https://en.wikipedia.org/wiki/Error_correction_code,Error Correction Code - Wikipedia
+Family & Kinship,core_entities,tech,"Person (name, dates, places, gender), Relationship (parent-child, spouse), Event (birth, marriage, death), Source",1.0,https://en.wikipedia.org/wiki/Genealogy,Genealogy - Wikipedia
+Family & Kinship,data_format,tech,GEDCOM (Genealogical Data Communication) — standard interchange format for family tree data,1.0,https://en.wikipedia.org/wiki/Genealogy,Genealogy - Wikipedia
+Family & Kinship,extended_family,tech,"Grandparents, aunts/uncles, cousins, in-laws, step-relations, adopted relations",1.0,https://en.wikipedia.org/wiki/Genealogy,Genealogy - Wikipedia
+Family & Kinship,format,tech,Hierarchical tagged text format with cross-reference IDs and indented levels,1.0,https://en.wikipedia.org/wiki/GEDCOM,GEDCOM - Wikipedia
+Family & Kinship,gap,research_gap,Kinship terminology complexity — cultural variation in how relatives are classified and named — is underexplored in computational models,1.0,https://en.wikipedia.org/wiki/Kinship,Kinship - Wikipedia
+Family & Kinship,kinship_systems,tech,"Eskimo, Hawaiian, Iroquois, Omaha, Sudan — cultural classification systems for relatives",1.0,https://en.wikipedia.org/wiki/Genealogy,Genealogy - Wikipedia
+Family & Kinship,limitation,tech,"No standard way to represent complex relationships (civil unions, non-traditional families), limited semantic expressiveness",1.0,https://en.wikipedia.org/wiki/GEDCOM,GEDCOM - Wikipedia
+Family & Kinship,records,tech,"INDI (individual), FAM (family), SOUR (source), REPO (repository), HEAD (header), SUBM (submitter)",1.0,https://en.wikipedia.org/wiki/GEDCOM,GEDCOM - Wikipedia
+Family & Kinship,relationship_types,tech,"Consanguineal (blood), affine (marriage), fictive (social/bond) — three fundamental categories",1.0,https://en.wikipedia.org/wiki/Kinship,Kinship - Wikipedia
+Family & Kinship,terminology_systems,tech,"Eskimo (nuclear family focus), Hawaiian (generational), Iroquois (lineal vs collateral distinction), Omaha (patrilineal), Sudanic",1.0,https://en.wikipedia.org/wiki/Kinship,Kinship - Wikipedia
+Family & Kinship,version,tech,5.5 most widely supported; 5.5.1 proposed; 7.0 released 2021 with JSON support,1.0,https://en.wikipedia.org/wiki/GEDCOM,GEDCOM - Wikipedia
+Graph-Native Programming,approaches,tech,"Double-pushout (DPO), single-pushout (SPO), algebraic approach via category theory",1.0,https://en.wikipedia.org/wiki/Graph_rewriting,Graph Rewriting - Wikipedia
+Graph-Native Programming,confluence,tech,Church-Rosser property ensures same result regardless of rule application order — essential for parallel execution,1.0,https://en.wikipedia.org/wiki/Graph_rewriting,Graph Rewriting - Wikipedia
+Graph-Native Programming,definition,tech,Directed graph where nodes are basic blocks and edges are control flow transfers,1.0,https://en.wikipedia.org/wiki/Control-flow_graph,Control-Flow Graph - Wikipedia
+Graph-Native Programming,examples,product,"Scratch, LabVIEW, Simulink, Unreal Blueprints, Unity Visual Scripting, Node-RED, Max/MSP",1.0,https://en.wikipedia.org/wiki/Visual_programming_language,Visual Programming Language - Wikipedia
+Graph-Native Programming,formalism,tech,Graph rewrite rules: pattern (LHS) matched and replaced with (RHS),1.0,https://en.wikipedia.org/wiki/Graph_rewriting,Graph Rewriting - Wikipedia
+Graph-Native Programming,gap,research_gap,Graph rewriting systems exist but are not integrated into mainstream general-purpose programming as a visual-first paradigm,1.0,https://en.wikipedia.org/wiki/Graph_rewriting,Graph Rewriting - Wikipedia
+Graph-Native Programming,gap,research_gap,No general-purpose visual-first language for graph-native software engineering exists,1.0,https://en.wikipedia.org/wiki/Visual_programming_language,Visual Programming Language - Wikipedia
+Graph-Native Programming,limitation,tech,Most VPLs are domain-specific; few are general-purpose for software engineering,1.0,https://en.wikipedia.org/wiki/Visual_programming_language,Visual Programming Language - Wikipedia
+Graph-Native Programming,paradigm,tech,"Visual/spatial programming — code expressed as diagrams, blocks, or graphs",1.0,https://en.wikipedia.org/wiki/Visual_programming_language,Visual Programming Language - Wikipedia
+Graph-Native Programming,related_concepts,tech,"Data-flow graph, program dependence graph, call graph",1.0,https://en.wikipedia.org/wiki/Control-flow_graph,Control-Flow Graph - Wikipedia
+Graph-Native Programming,systems,product,"GP2, AGG, ReWrite, graph transformation tools",1.0,https://en.wikipedia.org/wiki/Graph_rewriting,Graph Rewriting - Wikipedia
+Graph-Native Programming,types,tech,"Dataflow, form-based, icon-based, graph-based, sketch-based",1.0,https://en.wikipedia.org/wiki/Visual_programming_language,Visual Programming Language - Wikipedia
+Graph-Native Programming,use_cases,tech,"Compiler optimization, static analysis, program slicing, debugging",1.0,https://en.wikipedia.org/wiki/Control-flow_graph,Control-Flow Graph - Wikipedia
+Hardware Reverse Engineering,acid,tech,"Fuming nitric + sulfuric acid — gold standard, precise, but extremely dangerous and requires lab setup",1.0,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Practical Methods for Decapping Chips - NetSPI
+Hardware Reverse Engineering,cost,tech,Expensive: tens of thousands of dollars per chip; requires specialized lab equipment and expertise,1.0,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Semiconductor Reverse Engineering: The Complete Process - Lumenci
+Hardware Reverse Engineering,decapsulation_methods,tech,"Acid etching (fuming nitric + sulfuric), mechanical grinding, laser ablation — each with trade-offs in damage and resolution",1.0,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Semiconductor Reverse Engineering: The Complete Process - Lumenci
+Hardware Reverse Engineering,gap,research_gap,"No safe, cheap, accessible method for hobbyists to perform full chip circuit extraction — the barrier to hardware RE is high",1.0,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Practical Methods for Decapping Chips - NetSPI
+Hardware Reverse Engineering,grinding,tech,"Sandpaper/grind bottom of chip — keeps chip potentially functional, no acid, luck-dependent results",1.0,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Practical Methods for Decapping Chips - NetSPI
+Hardware Reverse Engineering,heat_force,tech,"Heat gun (~800F) then break epoxy — simple, destructive, die visible for forensic ID but not circuit analysis",1.0,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Practical Methods for Decapping Chips - NetSPI
+Hardware Reverse Engineering,ic_re,tech,"Destructive: decapsulate, delayered, image, extract netlist — expensive, expert-intensive, chip is destroyed",1.0,https://ghbintellect.com/hardware-reverse-engineering/,What is Hardware Reverse Engineering? - GHB Intellect
+Hardware Reverse Engineering,imaging,tech,SEM (scanning electron microscopy) for high-res top-down; TEM (transmission) for cross-sections; optical for overview,1.0,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Semiconductor Reverse Engineering: The Complete Process - Lumenci
+Hardware Reverse Engineering,legacy_hardware,tech,"Older chips (larger geometries, fewer gates) are more feasible for full IC RE — relevant for attic/basement hardware revival",1.0,https://ghbintellect.com/hardware-reverse-engineering/,What is Hardware Reverse Engineering? - GHB Intellect
+Hardware Reverse Engineering,pcb_re,tech,"Non-destructive: photograph, trace, identify components, reconstruct schematic — feasible with modest equipment",1.0,https://ghbintellect.com/hardware-reverse-engineering/,What is Hardware Reverse Engineering? - GHB Intellect
+Hardware Reverse Engineering,pipeline,tech,Decapsulation -> Delayering -> Imaging (SEM/TEM/optical) -> Circuit extraction (netlist reconstruction) -> Analysis,1.0,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Semiconductor Reverse Engineering: The Complete Process - Lumenci
+Hardware Reverse Engineering,rayv_lite,tech,1064nm light source + camera system for seeing into chips from the bottom side — used for fault injection and side-channel analysis,1.0,https://www.netspi.com/blog/technical-blog/hardware-and-embedded-systems-penetration-testing/practical-methods-for-decapping-chips/,Practical Methods for Decapping Chips - NetSPI
+Hardware Reverse Engineering,software_tools,tech,"Commercial tools for image alignment, layer stacking, gate annotation, and netlist extraction — expensive and specialized",1.0,https://ghbintellect.com/hardware-reverse-engineering/,What is Hardware Reverse Engineering? - GHB Intellect
+Hardware Reverse Engineering,standard_cell_recognition,tech,"Identifying standard cell layouts (inverters, NAND, NOR, flip-flops) from imaging is key to netlist reconstruction",1.0,https://lumenci.com/blogs/semiconductor-reverse-engineering-process/,Semiconductor Reverse Engineering: The Complete Process - Lumenci
+Information Theory,bit_definition,tech,"Shannon formally introduced the 'bit' as a unit of information (binary digit, credited to John Tukey)",1.0,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,A Mathematical Theory of Communication - Wikipedia
+Information Theory,capacity_definition,tech,C = max I(X;Y) — maximum mutual information between channel input and output over all input distributions,1.0,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Noisy-Channel Coding Theorem - Wikipedia
+Information Theory,communication_model,tech,Source -> Transmitter (encoder) -> Channel (possibly noisy) -> Receiver (decoder) -> Destination,1.0,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,A Mathematical Theory of Communication - Wikipedia
+Information Theory,entropy,tech,H = -Σ pi log2 pi — average information per symbol; also the theoretical minimum compression limit (source coding theorem),1.0,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,A Mathematical Theory of Communication - Wikipedia
+Information Theory,impact,tech,Called 'Magna Carta of the Information Age' — founded the mathematical discipline of information theory,1.0,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,A Mathematical Theory of Communication - Wikipedia
+Information Theory,non_constructive,tech,Theorem proves codes EXIST below capacity but doesn't construct them — finding practical near-capacity codes was a decades-long effort,1.0,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Noisy-Channel Coding Theorem - Wikipedia
+Information Theory,practical_codes,tech,"LDPC codes and turbo codes approach the Shannon limit within fractions of a dB — used in 4G, 5G, Wi-Fi, DVB-S2",1.0,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Noisy-Channel Coding Theorem - Wikipedia
+Information Theory,proof_approach,tech,Achievability via random coding + typical set decoding; converse via Fano's inequality bounding error from below,1.0,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Noisy-Channel Coding Theorem - Wikipedia
+Information Theory,redundancy,tech,Adding redundancy enables error correction — the trade-off between data rate and reliability,1.0,https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication,A Mathematical Theory of Communication - Wikipedia
+Information Theory,shannon_hartley,tech,For bandlimited AWGN channel: C = W * log2(1 + S/N) — capacity depends on bandwidth W and signal-to-noise ratio,1.0,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Noisy-Channel Coding Theorem - Wikipedia
+Information Theory,theorem,tech,"For any discrete memoryless channel with capacity C: reliable communication is possible at any rate R < C, impossible at R > C",1.0,https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem,Noisy-Channel Coding Theorem - Wikipedia
+Machine-Level Computing,abstraction_level,tech,"Direct hardware access — registers, memory, stack, CPU flags — no runtime abstractions",1.0,https://en.wikipedia.org/wiki/Assembly_language,Assembly Language - Wikipedia
+Machine-Level Computing,characteristic,tech,"Architecture-specific — x86, ARM, RISC-V, MIPS each have different assembly",1.0,https://en.wikipedia.org/wiki/Assembly_language,Assembly Language - Wikipedia
+Machine-Level Computing,components,tech,"ALU (arithmetic/logic), control unit, registers, program counter, cache",1.0,https://en.wikipedia.org/wiki/Central_processing_unit,CPU - Wikipedia
+Machine-Level Computing,cycle,tech,Fetch-decode-execute-writeback: the fundamental CPU instruction cycle,1.0,https://en.wikipedia.org/wiki/Central_processing_unit,CPU - Wikipedia
+Machine-Level Computing,definition,tech,Low-level language with 1:1 correspondence between mnemonics and machine instructions,1.0,https://en.wikipedia.org/wiki/Assembly_language,Assembly Language - Wikipedia
+Machine-Level Computing,instruction_set,tech,"The ISA defines opcodes, operand types, addressing modes, and register layout",1.0,https://en.wikipedia.org/wiki/Central_processing_unit,CPU - Wikipedia
+Machine-Level Computing,modern_features,tech,"Pipelining, out-of-order execution, branch prediction, speculative execution, superscalar",1.0,https://en.wikipedia.org/wiki/Central_processing_unit,CPU - Wikipedia
+Machine-Level Computing,use_cases,tech,"Bootloaders, device drivers, embedded systems, reverse engineering, performance-critical code",1.0,https://en.wikipedia.org/wiki/Assembly_language,Assembly Language - Wikipedia
+Neo4j,data_model,tech,"Property graph — nodes, relationships, properties",1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,implementation,tech,"Java, runs on JVM",1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,index_free_adjacency,tech,Nodes point directly to adjacent nodes — O(1) per hop traversal,1.0,https://neo4j.com/docs/,Neo4j Documentation
+Neo4j,license,product,"GPLv3 (community), commercial (enterprise)",1.0,https://neo4j.com/product/neo4j-graph-database/,Neo4j Graph Database - Official Product Page
+Neo4j,name,product,Neo4j,1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,page_cache,tech,Memory-mapped file access with page cache management,1.0,https://neo4j.com/docs/,Neo4j Documentation
+Neo4j,query_language,tech,"Cypher (declarative, SQL-like for graphs)",1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,storage,tech,Native graph storage with index-free adjacency,1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,storage_engine,tech,"Custom binary format, fixed-size records, direct pointers for adjacency",1.0,https://neo4j.com/docs/,Neo4j Documentation
+Neo4j,transaction_lock,tech,Lock-based concurrency control with deadlocks detection,1.0,https://neo4j.com/docs/,Neo4j Documentation
+Neo4j,transactions,tech,ACID compliant,1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,type,product,Native graph database management system,1.0,https://en.wikipedia.org/wiki/Neo4j,Neo4j - Wikipedia
+Neo4j,type,product,Enterprise graph database with community edition,1.0,https://neo4j.com/product/neo4j-graph-database/,Neo4j Graph Database - Official Product Page
+Neo4j,wal,tech,Write-ahead log for transaction durability,1.0,https://neo4j.com/docs/,Neo4j Documentation
+Open-Source Drivers,amd_documentation,tech,AMD releases GPU documentation without NDA — allows fully open-source drivers without reverse engineering,1.0,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Free and Open-Source Graphics Device Driver - Wikipedia
+Open-Source Drivers,atomic_modesetting,tech,Atomic modesetting API allows multiple display state changes in a single transaction — required for modern display management,1.0,https://www.kernel.org/doc/html/latest/gpu/index.html,GPU Driver Developer's Guide - Linux Kernel Documentation
+Open-Source Drivers,binary_blob_problem,tech,"Proprietary drivers taint kernel, break with kernel updates, can't use GPL-only APIs, hard to debug — Linus Torvalds refuses to consider binary modules",1.0,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Free and Open-Source Graphics Device Driver - Wikipedia
+Open-Source Drivers,dma_buf,tech,DMA-BUF framework allows buffer sharing between kernel drivers and userspace — essential for zero-copy pipeline,1.0,https://www.kernel.org/doc/html/latest/gpu/index.html,GPU Driver Developer's Guide - Linux Kernel Documentation
+Open-Source Drivers,drm_subsystem,tech,"Kernel DRM provides buffer management, synchronization, device access control, and userspace ioctl API",1.0,https://www.kernel.org/doc/html/latest/gpu/index.html,GPU Driver Developer's Guide - Linux Kernel Documentation
+Open-Source Drivers,mesa_drivers,tech,"radeonsi (AMD GCN+), iris (Intel), nouveau (NVIDIA), freedreno (Qualcomm Adreno), panfrost (Mali)",1.0,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Free and Open-Source Graphics Device Driver - Wikipedia
+Open-Source Drivers,nvidia_open_kernel,tech,May 2022: NVIDIA open-sourced Linux kernel modules (GPL/MIT) but kept user-space closed — a partial opening,1.0,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Free and Open-Source Graphics Device Driver - Wikipedia
+Open-Source Drivers,stack_layers,tech,"Kernel DRM driver (hardware, memory, security) -> Mesa (OpenGL/Vulkan userspace) -> Application",1.0,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Free and Open-Source Graphics Device Driver - Wikipedia
+Open-Source Drivers,ttm_vs_gem,tech,"TTM (Translation Table Manager) — older buffer/_memory manager; GEM (Graphics Execution Manager) — newer, simpler, used by Intel and AMD",1.0,https://www.kernel.org/doc/html/latest/gpu/index.html,GPU Driver Developer's Guide - Linux Kernel Documentation
+Open-Source Drivers,wayland_requirement,tech,"Atomic modesetting + DMA-BUF required for Wayland — open drivers had these early, proprietary drivers lagged",1.0,https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver,Free and Open-Source Graphics Device Driver - Wikipedia
+Programming Paradigms,concurrent,tech,"Multiple threads — actor model, CSP, dataflow, synchronous, process-oriented; sub-paradigm: reactive (data streams + change propagation)",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,declarative,tech,"Describe what, not how — SQL, HTML, functional, logic; sub-paradigms: functional, logic, query",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,functional,tech,"Mathematical function evaluation, immutability, no side effects — Haskell, Lisp, ML; pure vs impure (allows side effects)",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,functional_contribution,tech,"Lisp: lambda calculus, first-class functions, garbage collection, homoiconicity (code as data); ML: static typing + inference; Haskell: purity, laziness, monads",1.0,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Past Programming Languages and Their Influences - ETHW
+Programming Paradigms,history,tech,Paradigm concept from Floyd's 1978 Turing Award lecture; structured programming from mid-1960s as reaction to spaghetti code/goto,1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,imperative,tech,"Explicit step-by-step state changes — C, Pascal, FORTRAN, BASIC; sub-paradigms: procedural, structured, modular",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,logic,tech,"Facts + rules + automated reasoning — Prolog, Datalog; computation as inference over knowledge base",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,multi_paradigm,tech,"Most modern languages support multiple paradigms — C++, Python, JavaScript, Scala, Rust, Swift",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,oop,tech,"Objects with state + behavior, encapsulation, inheritance, polymorphism — Simula, Smalltalk, Java, C++; class-based vs prototype-based",1.0,https://en.wikipedia.org/wiki/Programming_paradigm,Programming Paradigm - Wikipedia
+Programming Paradigms,oop_contribution,tech,"Simula: first classes/objects; Smalltalk: pure OOP, everything is an object, MVC pattern, GUI integration; C++/Java: OOP mainstreamed",1.0,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Past Programming Languages and Their Influences - ETHW
+Programming Paradigms,procedural_contribution,tech,"FORTRAN/COBOL/ALGOL/C introduced: portability via compilers, abstraction from hardware, procedure/function decomposition, type systems",1.0,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Past Programming Languages and Their Influences - ETHW
+Programming Paradigms,structured_contribution,tech,"Dijkstra's 'Goto Considered Harmful' (1968) — replaced goto with structured control flow (if/then/else, while, for), improved readability and correctness reasoning",1.0,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Past Programming Languages and Their Influences - ETHW
+Programming Paradigms,timeline,tech,"Machine/assembly (1950s) -> Procedural high-level (1950s-60s: FORTRAN, COBOL, ALGOL, C) -> OOP (1960s-70s: Simula, Smalltalk) -> Functional (1958+: Lisp, ML, Haskell) -> Logic (1970s: Prolog) -> Structured (1960s: reaction to goto)",1.0,https://ethw.org/Past_programming_languages_and_their_influences_on_today%27s_languages_and_programming_paradigms,Past Programming Languages and Their Influences - ETHW
+Software Engineering at Machine Level,calling_conventions,tech,Understanding how arguments and return values pass between functions is foundational,1.0,https://en.wikipedia.org/wiki/Reverse_engineering,Reverse Engineering - Wikipedia
+Software Engineering at Machine Level,challenges,tech,"No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",1.0,https://en.wikipedia.org/wiki/Reverse_engineering,Reverse Engineering - Wikipedia
+Software Engineering at Machine Level,common_bugs,tech,"Memory leaks, dangling pointers, buffer overflows, use-after-free — all rooted in manual memory management",1.0,https://en.wikipedia.org/wiki/Memory_management,Memory Management - Wikipedia
+Software Engineering at Machine Level,gc_vs_manual,tech,"Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",1.0,https://en.wikipedia.org/wiki/Memory_management,Memory Management - Wikipedia
+Software Engineering at Machine Level,memory_mapped_io,tech,Hardware registers mapped into address space — programs interact with devices via memory reads/writes,1.0,https://en.wikipedia.org/wiki/Memory_management,Memory Management - Wikipedia
+Software Engineering at Machine Level,stack_vs_heap,tech,"Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",1.0,https://en.wikipedia.org/wiki/Memory_management,Memory Management - Wikipedia
+Software Engineering at Machine Level,techniques,tech,"Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",1.0,https://en.wikipedia.org/wiki/Reverse_engineering,Reverse Engineering - Wikipedia
+Software Engineering at Machine Level,tools,tech,"Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",1.0,https://en.wikipedia.org/wiki/Reverse_engineering,Reverse Engineering - Wikipedia
+Software Engineering at Machine Level,virtual_memory,tech,MMU translates virtual to physical addresses via page tables; each process gets its own address space,1.0,https://en.wikipedia.org/wiki/Memory_management,Memory Management - Wikipedia
+WebAssembly,atomic_ops,tech,Lock-free atomic operators for 8/16/32-bit required (and 64-bit for wasm64) — enables threads and shared memory,1.0,https://webassembly.org/docs/portability/,WebAssembly Portability Documentation
+WebAssembly,binary_format,tech,"Compact, modular, efficient single-pass decode/validate/compile, streamable, parallelizable",1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,design_goals,tech,"Fast (near-native), safe (sandboxed, memory-safe), well-defined (formal semantics), HW-independent, language-independent, platform-independent",1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,non_web,tech,"WebAssembly doesn't make Web-specific assumptions — designed for non-web embeddings (server, edge, embedded) from the start",1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,portability_requirements,tech,"8-bit bytes, byte-addressable, two's complement 32-bit ints, IEEE 754 float, little-endian, 32-bit pointers",1.0,https://webassembly.org/docs/portability/,WebAssembly Portability Documentation
+WebAssembly,sandbox,tech,"No ambient access — I/O, syscalls only through imports provided by the embedder; module cannot escape sandbox",1.0,https://webassembly.org/docs/portability/,WebAssembly Portability Documentation
+WebAssembly,security_model,tech,No ambient access — all I/O through imports; sandboxed execution; CFI via structured control flow; protected call stack,1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,text_format,tech,"Human-readable text format (WAT) for debugging, teaching, hand-written modules — 1:1 correspondence with binary",1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,use_cases,tech,"Web (high-performance apps in browser), server-side (edge compute, serverless), embedded, language runtime targeting, plugin systems",1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,virtual_isa,tech,WebAssembly is a virtual instruction set architecture — not tied to specific hardware but maps to all modern architectures,1.0,https://webassembly.github.io/spec/core/intro/introduction.html,"WebAssembly Core Specification Introduction (3.0, 2026)"
+WebAssembly,wasm64,tech,Extension for linear memory >4GB using 64-bit pointers/indices,1.0,https://webassembly.org/docs/portability/,WebAssembly Portability Documentation

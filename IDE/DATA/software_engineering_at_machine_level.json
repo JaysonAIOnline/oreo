@@ -2,152 +2,94 @@
   "category": "Software Engineering at Machine Level",
   "facts": [
     {
+      "fact_id": "11bcd361-41fe-4408-91cd-5ab23d454f5d",
       "key_term": "calling_conventions",
       "fact_type": "tech",
       "value": "Understanding how arguments and return values pass between functions is foundational",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
+      "source_title": "Reverse Engineering - Wikipedia",
+      "source_id": "26c929c6-7c25-42bf-96e8-c16518d91971"
     },
     {
-      "key_term": "calling_conventions",
-      "fact_type": "tech",
-      "value": "Understanding how arguments and return values pass between functions is foundational",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
-    },
-    {
+      "fact_id": "3bbeee15-470b-4e92-b6e6-db6887c34bb2",
       "key_term": "challenges",
       "fact_type": "tech",
       "value": "No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
+      "source_title": "Reverse Engineering - Wikipedia",
+      "source_id": "26c929c6-7c25-42bf-96e8-c16518d91971"
     },
     {
-      "key_term": "challenges",
-      "fact_type": "tech",
-      "value": "No symbols, compiler-optimized code, stripped binaries, obfuscation, mixed code/data sections",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
-    },
-    {
+      "fact_id": "9c7f724b-ddb9-4293-b439-64acdc7c889f",
       "key_term": "common_bugs",
       "fact_type": "tech",
       "value": "Memory leaks, dangling pointers, buffer overflows, use-after-free \u2014 all rooted in manual memory management",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
+      "source_title": "Memory Management - Wikipedia",
+      "source_id": "242bf61c-8ac8-45e9-9255-662dd9b93505"
     },
     {
-      "key_term": "common_bugs",
-      "fact_type": "tech",
-      "value": "Memory leaks, dangling pointers, buffer overflows, use-after-free \u2014 all rooted in manual memory management",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
-    },
-    {
+      "fact_id": "40fd069a-dcb0-4d26-9969-8289f9b77a08",
       "key_term": "gc_vs_manual",
       "fact_type": "tech",
       "value": "Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
+      "source_title": "Memory Management - Wikipedia",
+      "source_id": "242bf61c-8ac8-45e9-9255-662dd9b93505"
     },
     {
-      "key_term": "gc_vs_manual",
-      "fact_type": "tech",
-      "value": "Garbage collection automates memory reclamation (Java, Python) vs manual (C, C++) vs ownership systems (Rust)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
-    },
-    {
+      "fact_id": "da495e29-e5cf-4511-bccb-a777dc7d89d0",
       "key_term": "memory_mapped_io",
       "fact_type": "tech",
       "value": "Hardware registers mapped into address space \u2014 programs interact with devices via memory reads/writes",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
+      "source_title": "Memory Management - Wikipedia",
+      "source_id": "242bf61c-8ac8-45e9-9255-662dd9b93505"
     },
     {
-      "key_term": "memory_mapped_io",
-      "fact_type": "tech",
-      "value": "Hardware registers mapped into address space \u2014 programs interact with devices via memory reads/writes",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
-    },
-    {
+      "fact_id": "863f032e-c670-4a2c-952e-f9391f96c16e",
       "key_term": "stack_vs_heap",
       "fact_type": "tech",
       "value": "Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
+      "source_title": "Memory Management - Wikipedia",
+      "source_id": "242bf61c-8ac8-45e9-9255-662dd9b93505"
     },
     {
-      "key_term": "stack_vs_heap",
-      "fact_type": "tech",
-      "value": "Stack grows downward (function calls, local variables); heap grows upward (dynamic allocation, malloc/new)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
-    },
-    {
+      "fact_id": "c8f33644-6898-4bea-b435-db0f8a9480c0",
       "key_term": "techniques",
       "fact_type": "tech",
       "value": "Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
+      "source_title": "Reverse Engineering - Wikipedia",
+      "source_id": "26c929c6-7c25-42bf-96e8-c16518d91971"
     },
     {
-      "key_term": "techniques",
-      "fact_type": "tech",
-      "value": "Static analysis (disassembly, decompilation), dynamic analysis (debugging, tracing, instrumentation)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
-    },
-    {
+      "fact_id": "423b2e68-4065-42fc-b74b-06e8b11efb3b",
       "key_term": "tools",
       "fact_type": "tech",
       "value": "Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
+      "source_title": "Reverse Engineering - Wikipedia",
+      "source_id": "26c929c6-7c25-42bf-96e8-c16518d91971"
     },
     {
-      "key_term": "tools",
-      "fact_type": "tech",
-      "value": "Disassemblers (IDA Pro, Ghidra, Radare2), decompilers, debuggers (GDB, x64dbg), hex editors",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reverse_engineering",
-      "source_title": "Reverse Engineering - Wikipedia"
-    },
-    {
+      "fact_id": "7134ffa8-83d5-46b1-9df7-bee3dd958403",
       "key_term": "virtual_memory",
       "fact_type": "tech",
       "value": "MMU translates virtual to physical addresses via page tables; each process gets its own address space",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
-    },
-    {
-      "key_term": "virtual_memory",
-      "fact_type": "tech",
-      "value": "MMU translates virtual to physical addresses via page tables; each process gets its own address space",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Memory_management",
-      "source_title": "Memory Management - Wikipedia"
+      "source_title": "Memory Management - Wikipedia",
+      "source_id": "242bf61c-8ac8-45e9-9255-662dd9b93505"
     }
-  ],
-  "subcategories": {
-    "Assembly & Debugging": 8,
-    "Systems Programming": 10
-  }
+  ]
 }

@@ -2,248 +2,154 @@
   "category": "Error Correcting Codes",
   "facts": [
     {
+      "fact_id": "c8466298-acde-4913-a0e5-8102a0f86e23",
       "key_term": "application",
       "fact_type": "product",
       "value": "ECC RAM (Error-Correcting Code memory) \u2014 standard in servers, workstations, and critical systems",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
+      "source_title": "Hamming Code - Wikipedia",
+      "source_id": "7c8a4254-3de4-4285-a1e4-68b0ab76a25a"
     },
     {
-      "key_term": "application",
-      "fact_type": "product",
-      "value": "ECC RAM (Error-Correcting Code memory) \u2014 standard in servers, workstations, and critical systems",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
-    },
-    {
-      "key_term": "applications",
-      "fact_type": "product",
-      "value": "CD, DVD, Blu-ray, QR codes, DVB broadcast, satellite comms, RAID 6, Xerox PARC file system",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
-      "key_term": "applications",
-      "fact_type": "product",
-      "value": "CD, DVD, Blu-ray, QR codes, DVB broadcast, satellite comms, RAID 6, Xerox PARC file system",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
+      "fact_id": "ab4f60cb-7bf9-42e2-bc43-b2ed21d0cf77",
       "key_term": "applications",
       "fact_type": "tech",
       "value": "RAM (ECC memory), disk drives, CD/DVD, QR codes, satellite communication, Wi-Fi, 4G/5G, deep space communication",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
+      "source_title": "Error Correction Code - Wikipedia",
+      "source_id": "4b7d8dda-7503-4b25-8075-ecae5be3fd41"
     },
     {
+      "fact_id": "2dabae55-7e3d-44ff-8b2d-862bb06f15cf",
       "key_term": "applications",
-      "fact_type": "tech",
-      "value": "RAM (ECC memory), disk drives, CD/DVD, QR codes, satellite communication, Wi-Fi, 4G/5G, deep space communication",
+      "fact_type": "product",
+      "value": "CD, DVD, Blu-ray, QR codes, DVB broadcast, satellite comms, RAID 6, Xerox PARC file system",
       "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
+      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
+      "source_title": "Reed-Solomon Error Correction - Wikipedia",
+      "source_id": "a058845f-740c-4156-b6c5-cec709605594"
     },
     {
+      "fact_id": "4cd101fb-50e7-44f7-98f7-4e865a857122",
       "key_term": "burst_error",
       "fact_type": "tech",
       "value": "Excels at burst error correction \u2014 single symbol error can represent multiple consecutive corrupted bits",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
+      "source_title": "Reed-Solomon Error Correction - Wikipedia",
+      "source_id": "a058845f-740c-4156-b6c5-cec709605594"
     },
     {
-      "key_term": "burst_error",
-      "fact_type": "tech",
-      "value": "Excels at burst error correction \u2014 single symbol error can represent multiple consecutive corrupted bits",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
+      "fact_id": "85438aed-ff08-4192-b7e4-6b7b3745009f",
       "key_term": "decoding",
       "fact_type": "tech",
       "value": "Berlekamp-Massey algorithm (error locator), Forney algorithm (error magnitudes)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
+      "source_title": "Reed-Solomon Error Correction - Wikipedia",
+      "source_id": "a058845f-740c-4156-b6c5-cec709605594"
     },
     {
-      "key_term": "decoding",
-      "fact_type": "tech",
-      "value": "Berlekamp-Massey algorithm (error locator), Forney algorithm (error magnitudes)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
+      "fact_id": "82721a53-c089-4deb-8ab9-49088a59859f",
       "key_term": "definition",
       "fact_type": "tech",
       "value": "Non-binary cyclic error-correcting code over Galois field GF(2^m), works on symbols not bits",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
+      "source_title": "Reed-Solomon Error Correction - Wikipedia",
+      "source_id": "a058845f-740c-4156-b6c5-cec709605594"
     },
     {
-      "key_term": "definition",
-      "fact_type": "tech",
-      "value": "Non-binary cyclic error-correcting code over Galois field GF(2^m), works on symbols not bits",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
+      "fact_id": "127921ce-a3b1-4e44-b1f2-ec8e14cd42f8",
       "key_term": "erasure_coding",
       "fact_type": "tech",
       "value": "Can recover lost symbols \u2014 used in RAID 6, distributed storage, Fountain codes (RS-based)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
+      "source_title": "Reed-Solomon Error Correction - Wikipedia",
+      "source_id": "a058845f-740c-4156-b6c5-cec709605594"
     },
     {
-      "key_term": "erasure_coding",
-      "fact_type": "tech",
-      "value": "Can recover lost symbols \u2014 used in RAID 6, distributed storage, Fountain codes (RS-based)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
+      "fact_id": "6eb02e3c-6d72-4f97-b719-4ca7632ced0b",
       "key_term": "fec",
       "fact_type": "tech",
       "value": "Forward Error Correction \u2014 receiver corrects errors without retransmission; essential for one-way or high-latency channels",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
+      "source_title": "Error Correction Code - Wikipedia",
+      "source_id": "4b7d8dda-7503-4b25-8075-ecae5be3fd41"
     },
     {
-      "key_term": "fec",
-      "fact_type": "tech",
-      "value": "Forward Error Correction \u2014 receiver corrects errors without retransmission; essential for one-way or high-latency channels",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
-    },
-    {
+      "fact_id": "20eb1ac0-ac39-4a8b-8ba4-2b34fc0d906e",
       "key_term": "hamming_distance",
       "fact_type": "tech",
       "value": "Minimum bit flips between valid codewords; distance d detects d-1 errors, corrects floor((d-1)/2)",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
+      "source_title": "Error Correction Code - Wikipedia",
+      "source_id": "4b7d8dda-7503-4b25-8075-ecae5be3fd41"
     },
     {
-      "key_term": "hamming_distance",
-      "fact_type": "tech",
-      "value": "Minimum bit flips between valid codewords; distance d detects d-1 errors, corrects floor((d-1)/2)",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
-    },
-    {
+      "fact_id": "fb03160c-88db-4e3a-adb0-d2e784a0dbff",
       "key_term": "parameters",
       "fact_type": "tech",
       "value": "RS(n, k): n total symbols, k data symbols, n-k parity symbols; corrects floor((n-k)/2) symbol errors",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
+      "source_title": "Reed-Solomon Error Correction - Wikipedia",
+      "source_id": "a058845f-740c-4156-b6c5-cec709605594"
     },
     {
-      "key_term": "parameters",
-      "fact_type": "tech",
-      "value": "RS(n, k): n total symbols, k data symbols, n-k parity symbols; corrects floor((n-k)/2) symbol errors",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction",
-      "source_title": "Reed-Solomon Error Correction - Wikipedia"
-    },
-    {
+      "fact_id": "7ca58ca5-f227-427f-94d2-dc81cd10cd8b",
       "key_term": "parity_placement",
       "fact_type": "tech",
       "value": "Parity bits at positions that are powers of 2 (1, 2, 4, 8, ...); each covers a specific subset of data bits",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
+      "source_title": "Hamming Code - Wikipedia",
+      "source_id": "7c8a4254-3de4-4285-a1e4-68b0ab76a25a"
     },
     {
-      "key_term": "parity_placement",
-      "fact_type": "tech",
-      "value": "Parity bits at positions that are powers of 2 (1, 2, 4, 8, ...); each covers a specific subset of data bits",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
-    },
-    {
+      "fact_id": "01a0b666-619a-4d76-8035-c107d07f2b5e",
       "key_term": "seccd",
       "fact_type": "tech",
       "value": "Extended Hamming: single error correction, double error detection \u2014 widely used in ECC memory",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
+      "source_title": "Hamming Code - Wikipedia",
+      "source_id": "7c8a4254-3de4-4285-a1e4-68b0ab76a25a"
     },
     {
-      "key_term": "seccd",
-      "fact_type": "tech",
-      "value": "Extended Hamming: single error correction, double error detection \u2014 widely used in ECC memory",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
-    },
-    {
+      "fact_id": "238aa57d-ecc6-41c0-9157-c52d6e5c09cf",
       "key_term": "shannon_limit",
       "fact_type": "tech",
       "value": "Shannon's theorem proves codes exist for any rate below channel capacity with arbitrarily low error \u2014 but finding them is hard",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
+      "source_title": "Error Correction Code - Wikipedia",
+      "source_id": "4b7d8dda-7503-4b25-8075-ecae5be3fd41"
     },
     {
-      "key_term": "shannon_limit",
-      "fact_type": "tech",
-      "value": "Shannon's theorem proves codes exist for any rate below channel capacity with arbitrarily low error \u2014 but finding them is hard",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
-    },
-    {
+      "fact_id": "6b0be172-ba1a-4219-8a59-6d249337407d",
       "key_term": "syndrome_decoding",
       "fact_type": "tech",
       "value": "Syndrome (mismatch pattern) directly encodes the error position \u2014 modulo-2 arithmetic identifies the faulty bit",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
+      "source_title": "Hamming Code - Wikipedia",
+      "source_id": "7c8a4254-3de4-4285-a1e4-68b0ab76a25a"
     },
     {
-      "key_term": "syndrome_decoding",
-      "fact_type": "tech",
-      "value": "Syndrome (mismatch pattern) directly encodes the error position \u2014 modulo-2 arithmetic identifies the faulty bit",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Hamming_code",
-      "source_title": "Hamming Code - Wikipedia"
-    },
-    {
+      "fact_id": "6a9ae2bb-ef07-4732-9bb5-328b9b5960ea",
       "key_term": "types",
       "fact_type": "tech",
       "value": "Parity (detection only), Hamming (single-error correction), Reed-Solomon (burst errors), BCH, LDPC, turbo codes",
       "confidence": 1.0,
       "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
-    },
-    {
-      "key_term": "types",
-      "fact_type": "tech",
-      "value": "Parity (detection only), Hamming (single-error correction), Reed-Solomon (burst errors), BCH, LDPC, turbo codes",
-      "confidence": 1.0,
-      "source_url": "https://en.wikipedia.org/wiki/Error_correction_code",
-      "source_title": "Error Correction Code - Wikipedia"
+      "source_title": "Error Correction Code - Wikipedia",
+      "source_id": "4b7d8dda-7503-4b25-8075-ecae5be3fd41"
     }
-  ],
-  "subcategories": {
-    "ECC Theory": 10,
-    "Specific Code Families": 20
-  }
+  ]
 }
