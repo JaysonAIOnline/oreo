@@ -27,7 +27,7 @@ Building a **new programming language** where:
 | **Data/Research** | `/home/jayson/OREO/DATA/` |
 | **PostgreSQL Datastore** | Local PostgreSQL 18, database `neo4j_research` |
 | **Mem20 Memory** | `/home/jayson/mem20/` (MCP server) |
-| **Hermes Config** | `/root/.hermes/config.yaml` |
+| **mem20 Config** | `/root/.mem20/config.yaml` |
 
 ---
 
@@ -82,7 +82,7 @@ sudo -u postgres psql -d neo4j_research
 | **Roadmap** | `roadmap_create`, `roadmap_list`, `roadmap_get`, `roadmap_update_phase` |
 | **Filesystem** | `fs_read`, `fs_write`, `fs_list` |
 
-**Usage via Hermes:**
+**Usage via mem20:**
 ```json
 {
   "method": "tools/call",
@@ -117,11 +117,11 @@ roadmap_create: {
 
 ---
 
-## 🔧 HERMES INTEGRATION
+## 🔧 MEM20 INTEGRATION
 
-**Config:** `/root/.hermes/config.yaml` has `mcp_servers.mem20` enabled
+**Config:** `/root/.mem20/config.yaml` has `mcp_servers.mem20` enabled
 
-**Known Issue:** `hermes mcp test mem20` fails with "Connection closed" — but direct `_connect_server` works. The server runs fine; it's a Hermes watchdog/transport layer issue.
+**Known Issue:** `mem20 mcp test mem20` fails with "Connection closed" — but direct `_connect_server` works. The server runs fine; it's a mem20 watchdog/transport layer issue.
 
 **Workaround:** Test directly:
 ```python
@@ -158,7 +158,7 @@ server = await _connect_server('mem20', config)
 1. **OREO IDE: Architecture subsystem merged & runnable** — GraphLang checkpoint merged as `parser/architecture/` (NL→intent→Cypher/Neo4j, relationship handshake runtime, talk+draw web editor). Verified: `python3 -m parser.architecture.demo`, `examples/architecture/runtime_handshake.py`, `examples/architecture/emit_and_hit.py` all run.
 2. **Computational GIR layer fully unblocked (2026-08-31)** — fixed parser/gir/types.py dataclass bug, `Node.kind`/`Edge.kind` defaults, `ANY` top-type unification, `TypeScheme` import, expression-node result ports, tokenizer symbol operators, and the semantic NL parser. `parse_nl`/`NLParser` now produce valid graphs for the documented grammar; NL→GIR→BytecodeCompiler and GIRGenerator pipelines verified.
 3. **Populate OREO IDE workspace** — initial structure now present; language spec continues (in_progress).
-4. **Fix Hermes MCP test connection** — debug watchdog/transport
+4. **Fix mem20 MCP test connection** — debug watchdog/transport
 5. **Complete mem20 production release** — verify all 6 criteria
 
 ---
@@ -195,7 +195,7 @@ sudo -u postgres psql -d neo4j_research -c "SELECT name FROM research_categories
 
 # 2. Test mem20 memory
 python3 -c "
-import sys; sys.path.insert(0, '/root/.hermes/memories/store')
+import sys; sys.path.insert(0, '/root/.mem20/memories/store')
 from memory import recall
 for r in recall(topic='Graph-Native Programming', k=5):
     print(f\"[{r['ts'][:19]}] {r['content'][:200]}\")
@@ -226,7 +226,7 @@ asyncio.run(test())
 
 1. _(fixed 2026-08-30...31)_ Computational GIR layer — a cascade of pre-existing latent bugs was fixed once unblocked: `parser/gir/types.py` dataclass bug (`kw_only` base fields), `Node.kind`/`Edge.kind` defaults (subclasses set kind in `__post_init__`), `ANY` top-type unification in `types.py:unify`, missing `TypeScheme` import in validation.py, `create_*`/`connect_composition`/`ReturnNode`/`Port` import gaps in semantic_parser.py, literals not added to graph in `_parse_primary`, expression-node `result` ports defaulted to `Any`, tokenizer symbol operators (`+ - * / < > <= >= == !=`), if/else control-edge direction, call-node `arg{i}`/`function` ports, helper import paths (`..parser.gir` → `parser.gir`, `TokenType.FN`, missing `Set`, `TypeRef` in evaluator.py). Verified: imports OK, `parse_nl` produces valid graphs, `GIRGenerator`, `BytecodeCompiler`, `Interpreter` run.
 2. **Remaining compute-NL grammar quirks (by design, not bugs)** — operator words are reserved (function named `add` tokenizes as `PLUS`); NL→`returns` keyword form not yet supported (use brace body `{ return expr }`); `runtime.interpreter` runs but is a partial evaluator (returns `None` for `return <expr>` — unimplemented value propagation, not a wiring bug).
-3. **Hermes MCP test fails** — `hermes mcp test mem20` returns "Connection closed" but direct connection works
+3. **mem20 MCP test fails** — `mem20 mcp test mem20` returns "Connection closed" but direct connection works
 4. **mem20 systemd service** — runs but exits quickly (restart loop); MCP server works when tested directly
 
 ---
@@ -236,7 +236,7 @@ asyncio.run(test())
 If blocked on:
 - **PostgreSQL access** → Check `pg_lsclusters`, start cluster 18 main
 - **mem20 MCP** → Test direct with `_connect_server` from `tools.mcp_tool`
-- **Hermes config** → Check `/root/.hermes/config.yaml` mcp_servers section
+- **mem20 config** → Check `/root/.mem20/config.yaml` mcp_servers section
 - **OREO research** → Query mem20 memory system for relevant facts
 
 ---

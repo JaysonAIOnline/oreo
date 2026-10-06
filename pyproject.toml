@@ -1,0 +1,49 @@
+[project]
+name = "mem20oreo"
+version = "0.1.0"
+description = "OREO (absorbed) - Visual-first, natural-language-first programming language inside mem20"
+readme = "IDE/README.md"
+license = {text = "MIT OR Apache-2.0"}
+authors = [{name = "Jayson", email = "jayson@example.com"}]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "pyyaml>=6.0",
+    "toml>=0.10",
+    "rich>=13.0",
+    "typer>=0.9",
+    "networkx>=3.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+ai = [
+    "torch>=2.0",
+    "transformers>=4.30",
+    "tokenizers>=0.13",
+]
+graph = [
+    "neo4j>=5.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "pytest-cov>=4.0",
+    "ruff>=0.1",
+    "mypy>=1.0",
+    "pre-commit>=3.0",
+]
+docs = [
+    "mkdocs>=1.5",
+    "mkdocs-material>=9.0",
+    "mkdocstrings[python]>=0.24",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mem20oreo*"]
